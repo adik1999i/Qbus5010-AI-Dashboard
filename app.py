@@ -79,7 +79,7 @@ app.layout = html.Div([
     ])
 ])
 
-
+server = app.server
 
 # Run the app
 if __name__ == '__main__':
