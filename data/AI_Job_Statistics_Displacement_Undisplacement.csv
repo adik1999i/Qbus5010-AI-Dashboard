@@ -1,0 +1,193 @@
+Year,Country,Industry,Jobs Created by AI,Job Displacement by AI
+2020,United States,Technology,272534,144342
+2020,United States,Finance,362696,63440
+2020,United States,Healthcare,211001,96501
+2020,United States,Telecommunications,232341,57868
+2020,United States,Education,177909,88729
+2020,United States,Agriculture,45734,28064
+2020,India,Technology,470577,59111
+2020,India,Finance,303986,113753
+2020,India,Healthcare,213783,71751
+2020,India,Telecommunications,247525,88968
+2020,India,Education,148570,96097
+2020,India,Agriculture,54503,12779
+2020,Canada,Technology,331827,89263
+2020,Canada,Finance,251482,104857
+2020,Canada,Healthcare,222989,67400
+2020,Canada,Telecommunications,140115,64249
+2020,Canada,Education,210361,74600
+2020,Canada,Agriculture,67706,29222
+2020,United Kingdom,Technology,241139,91302
+2020,United Kingdom,Finance,425756,137838
+2020,United Kingdom,Healthcare,239718,63543
+2020,United Kingdom,Telecommunications,178353,81406
+2020,United Kingdom,Education,188992,101428
+2020,United Kingdom,Agriculture,53777,30914
+2021,United States,Technology,223548,113221
+2021,United States,Finance,325549,90701
+2021,United States,Healthcare,237799,100717
+2021,United States,Telecommunications,247764,81625
+2021,United States,Education,124918,91136
+2021,United States,Agriculture,82409,25577
+2021,India,Technology,311776,149246
+2021,India,Finance,433996,131731
+2021,India,Healthcare,242226,71341
+2021,India,Telecommunications,197554,96330
+2021,India,Education,187759,118416
+2021,India,Agriculture,63313,23304
+2021,Canada,Technology,365767,80225
+2021,Canada,Finance,249156,127209
+2021,Canada,Healthcare,187453,77829
+2021,Canada,Telecommunications,125938,109164
+2021,Canada,Education,160282,97801
+2021,Canada,Agriculture,39465,13326
+2021,United Kingdom,Technology,358666,54763
+2021,United Kingdom,Finance,341900,97588
+2021,United Kingdom,Healthcare,111221,61211
+2021,United Kingdom,Telecommunications,113569,87860
+2021,United Kingdom,Education,145337,102311
+2021,United Kingdom,Agriculture,43515,16159
+2022,United States,Technology,453078,137227
+2022,United States,Finance,355976,109935
+2022,United States,Healthcare,143790,118580
+2022,United States,Telecommunications,105636,52892
+2022,United States,Education,121672,55812
+2022,United States,Agriculture,30654,27143
+2022,India,Technology,255934,117334
+2022,India,Finance,303463,79087
+2022,India,Healthcare,242690,58446
+2022,India,Telecommunications,202127,98867
+2022,India,Education,160101,77200
+2022,India,Agriculture,91465,30900
+2022,Canada,Technology,318422,137892
+2022,Canada,Finance,419631,89148
+2022,Canada,Healthcare,182928,70698
+2022,Canada,Telecommunications,151660,103910
+2022,Canada,Education,135450,106463
+2022,Canada,Agriculture,63757,22476
+2022,United Kingdom,Technology,256116,63161
+2022,United Kingdom,Finance,232152,130171
+2022,United Kingdom,Healthcare,206379,70836
+2022,United Kingdom,Telecommunications,241835,119444
+2022,United Kingdom,Education,193109,69187
+2022,United Kingdom,Agriculture,41957,14379
+2023,United States,Technology,282018,77105
+2023,United States,Finance,379425,133788
+2023,United States,Healthcare,196870,101567
+2023,United States,Telecommunications,157913,52637
+2023,United States,Education,142025,78742
+2023,United States,Agriculture,41831,29556
+2023,India,Technology,304824,148958
+2023,India,Finance,288741,68830
+2023,India,Healthcare,155044,119202
+2023,India,Telecommunications,137045,76627
+2023,India,Education,115198,119521
+2023,India,Agriculture,59475,29403
+2023,Canada,Technology,203681,141555
+2023,Canada,Finance,315260,92292
+2023,Canada,Healthcare,205386,55629
+2023,Canada,Telecommunications,193246,58417
+2023,Canada,Education,218888,84765
+2023,Canada,Agriculture,86574,47292
+2023,United Kingdom,Technology,459278,77675
+2023,United Kingdom,Finance,456681,122267
+2023,United Kingdom,Healthcare,111332,69177
+2023,United Kingdom,Telecommunications,230560,118447
+2023,United Kingdom,Education,157104,54951
+2023,United Kingdom,Agriculture,58333,31673
+2024,United States,Technology,240870,121101
+2024,United States,Finance,484965,75494
+2024,United States,Healthcare,199477,50835
+2024,United States,Telecommunications,118646,87335
+2024,United States,Education,169351,52429
+2024,United States,Agriculture,71950,12607
+2024,India,Technology,302326,127527
+2024,India,Finance,366991,146952
+2024,India,Healthcare,160782,90387
+2024,India,Telecommunications,246895,96015
+2024,India,Education,202877,65339
+2024,India,Agriculture,33491,10706
+2024,Canada,Technology,297493,65728
+2024,Canada,Finance,391480,108097
+2024,Canada,Healthcare,229526,88523
+2024,Canada,Telecommunications,221648,75163
+2024,Canada,Education,248790,89619
+2024,Canada,Agriculture,42126,33595
+2024,United Kingdom,Technology,264926,90633
+2024,United Kingdom,Finance,408726,53317
+2024,United Kingdom,Healthcare,144980,94115
+2024,United Kingdom,Telecommunications,143158,105963
+2024,United Kingdom,Education,205364,109342
+2024,United Kingdom,Agriculture,45504,13057
+2025,United States,Technology,499340,115938
+2025,United States,Finance,412369,105501
+2025,United States,Healthcare,127043,83635
+2025,United States,Telecommunications,180691,83132
+2025,United States,Education,115366,112580
+2025,United States,Agriculture,87889,24017
+2025,India,Technology,239236,54150
+2025,India,Finance,481567,54137
+2025,India,Healthcare,129992,94921
+2025,India,Telecommunications,221225,116917
+2025,India,Education,173690,84235
+2025,India,Agriculture,49122,33956
+2025,Canada,Technology,263879,108560
+2025,Canada,Finance,399757,74660
+2025,Canada,Healthcare,101168,95124
+2025,Canada,Telecommunications,246104,102797
+2025,Canada,Education,135294,93827
+2025,Canada,Agriculture,33516,29751
+2025,United Kingdom,Technology,230373,80270
+2025,United Kingdom,Finance,432931,114817
+2025,United Kingdom,Healthcare,165184,87879
+2025,United Kingdom,Telecommunications,149597,89132
+2025,United Kingdom,Education,103626,105390
+2025,United Kingdom,Agriculture,46645,36424
+2026,United States,Technology,254144,63382
+2026,United States,Finance,204025,93226
+2026,United States,Healthcare,179380,119711
+2026,United States,Telecommunications,196055,53443
+2026,United States,Education,121395,60725
+2026,United States,Agriculture,63461,41351
+2026,India,Technology,359762,51407
+2026,India,Finance,273568,108560
+2026,India,Healthcare,248866,69881
+2026,India,Telecommunications,191288,64390
+2026,India,Education,127307,74502
+2026,India,Agriculture,52486,48258
+2026,Canada,Technology,388788,147228
+2026,Canada,Finance,303920,131494
+2026,Canada,Healthcare,182768,60748
+2026,Canada,Telecommunications,162785,72738
+2026,Canada,Education,174231,91662
+2026,Canada,Agriculture,45123,45144
+2026,United Kingdom,Technology,356688,61182
+2026,United Kingdom,Finance,362403,96098
+2026,United Kingdom,Healthcare,126128,81556
+2026,United Kingdom,Telecommunications,240021,101962
+2026,United Kingdom,Education,190054,74099
+2026,United Kingdom,Agriculture,42716,48885
+2027,United States,Technology,396292,57837
+2027,United States,Finance,380427,97299
+2027,United States,Healthcare,225212,101012
+2027,United States,Telecommunications,230193,109305
+2027,United States,Education,248178,108123
+2027,United States,Agriculture,38720,47661
+2027,India,Technology,446103,143898
+2027,India,Finance,424866,137318
+2027,India,Healthcare,158655,109643
+2027,India,Telecommunications,193448,97374
+2027,India,Education,220507,84812
+2027,India,Agriculture,79570,46160
+2027,Canada,Technology,219156,126208
+2027,Canada,Finance,349001,116606
+2027,Canada,Healthcare,195377,92863
+2027,Canada,Telecommunications,165439,57194
+2027,Canada,Education,221361,116214
+2027,Canada,Agriculture,59777,36183
+2027,United Kingdom,Technology,398110,137201
+2027,United Kingdom,Finance,381649,65867
+2027,United Kingdom,Healthcare,162501,64266
+2027,United Kingdom,Telecommunications,139422,85208
+2027,United Kingdom,Education,221544,81213
+2027,United Kingdom,Agriculture,37367,23490

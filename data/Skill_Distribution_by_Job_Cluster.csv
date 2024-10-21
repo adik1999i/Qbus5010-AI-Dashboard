@@ -1,0 +1,1633 @@
+Skill,Axis,Value
+academic degree,Applications & networks,72.2292993630573
+academic degree,Database administration,90.3184713375796
+academic degree,Open source programming,87.7707006369427
+academic degree,User interface,89.2993630573248
+academic degree,Artificial intelligence,76.5605095541401
+academic degree,Data processing,6.751592356687899
+academic degree,Testing & quality,83.8216560509554
+academic degree,Systems programming & robotics,56.9426751592357
+academic degree,Microsoft tools & cloud,67.89808917197449
+academic degree,Enterprise services,94.3949044585987
+academic degree,Data management,91.8471337579618
+academic degree,Digital security,26.6242038216561
+academic degree,Source code management,16.1783439490446
+academic degree,Database architecture,24.5859872611465
+academic degree,Web development,77.4522292993631
+academic degree,DevOps,82.4203821656051
+academic specialization,Applications & networks,37.8343949044586
+academic specialization,Database administration,5.98726114649682
+academic specialization,Open source programming,4.07643312101911
+academic specialization,User interface,35.031847133758
+academic specialization,Artificial intelligence,84.4585987261147
+academic specialization,Data processing,68.91719745222929
+academic specialization,Testing & quality,41.2738853503185
+academic specialization,Systems programming & robotics,70.4458598726115
+academic specialization,Microsoft tools & cloud,96.8152866242038
+academic specialization,Enterprise services,63.312101910828
+academic specialization,Data management,76.94267515923569
+academic specialization,Digital security,33.7579617834395
+academic specialization,Source code management,36.4331210191083
+academic specialization,Database architecture,1.78343949044586
+academic specialization,Web development,51.33757961783439
+academic specialization,DevOps,17.9617834394904
+apache hadoop,Applications & networks,37.4522292993631
+apache hadoop,Database administration,17.0700636942675
+apache hadoop,Open source programming,0.509554140127389
+apache hadoop,User interface,10.3184713375796
+apache hadoop,Artificial intelligence,98.4713375796178
+apache hadoop,Data processing,62.42038216560511
+apache hadoop,Testing & quality,36.1783439490446
+apache hadoop,Systems programming & robotics,1.01910828025478
+apache hadoop,Microsoft tools & cloud,23.949044585987306
+apache hadoop,Enterprise services,35.796178343948995
+apache hadoop,Data management,67.0063694267516
+apache hadoop,Digital security,18.8535031847134
+apache hadoop,Source code management,38.5987261146497
+apache hadoop,Database architecture,47.7707006369427
+apache hadoop,Web development,10.7006369426752
+apache hadoop,DevOps,15.796178343949
+apache spark,Applications & networks,62.6751592356688
+apache spark,Database administration,5.47770700636943
+apache spark,Open source programming,2.8025477707006403
+apache spark,User interface,9.93630573248408
+apache spark,Artificial intelligence,99.4904458598726
+apache spark,Data processing,88.0254777070064
+apache spark,Testing & quality,19.7452229299363
+apache spark,Systems programming & robotics,16.687898089172002
+apache spark,Microsoft tools & cloud,38.2165605095541
+apache spark,Enterprise services,57.197452229299394
+apache spark,Data management,64.07643312101911
+apache spark,Digital security,49.5541401273885
+apache spark,Source code management,66.75159235668791
+apache spark,Database architecture,56.687898089172
+apache spark,Web development,41.7834394904459
+apache spark,DevOps,41.0191082802548
+artificial intelligence,Applications & networks,0.254777070063694
+artificial intelligence,Database administration,68.1528662420382
+artificial intelligence,Open source programming,0.382165605095541
+artificial intelligence,User interface,0.509554140127389
+artificial intelligence,Artificial intelligence,91.3375796178344
+artificial intelligence,Data processing,36.9426751592357
+artificial intelligence,Testing & quality,34.777070063694296
+artificial intelligence,Systems programming & robotics,83.0573248407643
+artificial intelligence,Microsoft tools & cloud,9.55414012738854
+artificial intelligence,Enterprise services,62.2929936305732
+artificial intelligence,Data management,45.2229299363057
+artificial intelligence,Digital security,6.36942675159236
+artificial intelligence,Source code management,9.93630573248408
+artificial intelligence,Database architecture,50.4458598726115
+artificial intelligence,Web development,11.0828025477707
+artificial intelligence,DevOps,63.566878980891694
+artificial neural network,Applications & networks,16.560509554140097
+artificial neural network,Database administration,10.1910828025478
+artificial neural network,Open source programming,9.17197452229299
+artificial neural network,User interface,72.3566878980892
+artificial neural network,Artificial intelligence,97.3248407643312
+artificial neural network,Data processing,37.7070063694268
+artificial neural network,Testing & quality,33.2484076433121
+artificial neural network,Systems programming & robotics,13.5031847133758
+artificial neural network,Microsoft tools & cloud,14.3949044585987
+artificial neural network,Enterprise services,32.8662420382166
+artificial neural network,Data management,46.3694267515924
+artificial neural network,Digital security,62.6751592356688
+artificial neural network,Source code management,24.8407643312102
+artificial neural network,Database architecture,32.3566878980892
+artificial neural network,Web development,49.0445859872611
+artificial neural network,DevOps,13.3757961783439
+autoencoder,Applications & networks,27.261146496815304
+autoencoder,Database administration,20.1273885350318
+autoencoder,Open source programming,4.96815286624204
+autoencoder,User interface,14.7770700636943
+autoencoder,Artificial intelligence,89.171974522293
+autoencoder,Data processing,20.5095541401274
+autoencoder,Testing & quality,15.796178343949
+autoencoder,Systems programming & robotics,17.0700636942675
+autoencoder,Microsoft tools & cloud,2.67515923566879
+autoencoder,Enterprise services,1.27388535031847
+autoencoder,Data management,7.89808917197452
+autoencoder,Digital security,39.3630573248408
+autoencoder,Source code management,20.1273885350318
+autoencoder,Database architecture,13.1210191082803
+autoencoder,Web development,4.3312101910828
+autoencoder,DevOps,5.0955414012738895
+autoregressive integrated moving average,Applications & networks,66.2420382165605
+autoregressive integrated moving average,Database administration,88.7898089171975
+autoregressive integrated moving average,Open source programming,68.91719745222929
+autoregressive integrated moving average,User interface,81.0191082802548
+autoregressive integrated moving average,Artificial intelligence,95.6687898089172
+autoregressive integrated moving average,Data processing,53.5031847133758
+autoregressive integrated moving average,Testing & quality,14.7770700636943
+autoregressive integrated moving average,Systems programming & robotics,87.8980891719745
+autoregressive integrated moving average,Microsoft tools & cloud,29.171974522293
+autoregressive integrated moving average,Enterprise services,35.4140127388535
+autoregressive integrated moving average,Data management,8.280254777070061
+autoregressive integrated moving average,Digital security,1.52866242038217
+autoregressive integrated moving average,Source code management,4.5859872611465
+autoregressive integrated moving average,Database architecture,5.85987261146497
+autoregressive integrated moving average,Web development,6.114649681528659
+autoregressive integrated moving average,DevOps,22.2929936305732
+batch processing,Applications & networks,94.0127388535032
+batch processing,Database administration,70.9554140127388
+batch processing,Open source programming,90.9554140127389
+batch processing,User interface,35.5414012738853
+batch processing,Artificial intelligence,30.700636942675203
+batch processing,Data processing,75.031847133758
+batch processing,Testing & quality,53.5031847133758
+batch processing,Systems programming & robotics,36.9426751592357
+batch processing,Microsoft tools & cloud,78.4713375796178
+batch processing,Enterprise services,59.3630573248408
+batch processing,Data management,7.515923566878981
+batch processing,Digital security,44.968152866242
+batch processing,Source code management,23.6942675159236
+batch processing,Database architecture,49.4267515923567
+batch processing,Web development,30.955414012738903
+batch processing,DevOps,77.8343949044586
+bayesian network,Applications & networks,68.91719745222929
+bayesian network,Database administration,55.1592356687898
+bayesian network,Open source programming,15.031847133758
+bayesian network,User interface,33.2484076433121
+bayesian network,Artificial intelligence,95.796178343949
+bayesian network,Data processing,61.5286624203822
+bayesian network,Testing & quality,11.3375796178344
+bayesian network,Systems programming & robotics,82.5477707006369
+bayesian network,Microsoft tools & cloud,20.5095541401274
+bayesian network,Enterprise services,24.0764331210191
+bayesian network,Data management,11.8471337579618
+bayesian network,Digital security,42.42038216560511
+bayesian network,Source code management,44.4585987261147
+bayesian network,Database architecture,46.8789808917197
+bayesian network,Web development,31.3375796178344
+bayesian network,DevOps,49.9363057324841
+big data,Applications & networks,15.031847133758
+big data,Database administration,31.9745222929936
+big data,Open source programming,8.917197452229301
+big data,User interface,5.35031847133758
+big data,Artificial intelligence,91.4649681528662
+big data,Data processing,63.1847133757962
+big data,Testing & quality,49.2993630573248
+big data,Systems programming & robotics,4.07643312101911
+big data,Microsoft tools & cloud,4.5859872611465
+big data,Enterprise services,46.7515923566879
+big data,Data management,27.3885350318471
+big data,Digital security,8.40764331210191
+big data,Source code management,19.6178343949045
+big data,Database architecture,11.9745222929936
+big data,Web development,4.5859872611465
+big data,DevOps,6.114649681528659
+cascading style sheets,Applications & networks,36.9426751592357
+cascading style sheets,Database administration,83.5668789808917
+cascading style sheets,Open source programming,48.5350318471338
+cascading style sheets,User interface,18.343949044586
+cascading style sheets,Artificial intelligence,14.0127388535032
+cascading style sheets,Data processing,4.96815286624204
+cascading style sheets,Testing & quality,89.68152866242039
+cascading style sheets,Systems programming & robotics,53.375796178343904
+cascading style sheets,Microsoft tools & cloud,18.0891719745223
+cascading style sheets,Enterprise services,40.5095541401274
+cascading style sheets,Data management,65.3503184713376
+cascading style sheets,Digital security,13.757961783439502
+cascading style sheets,Source code management,26.4968152866242
+cascading style sheets,Database architecture,8.40764331210191
+cascading style sheets,Web development,8.02547770700637
+cascading style sheets,DevOps,7.006369426751589
+cobol,Applications & networks,70.828025477707
+cobol,Database administration,69.9363057324841
+cobol,Open source programming,93.12101910828032
+cobol,User interface,71.0828025477707
+cobol,Artificial intelligence,45.2229299363057
+cobol,Data processing,15.4140127388535
+cobol,Testing & quality,28.6624203821656
+cobol,Systems programming & robotics,16.1783439490446
+cobol,Microsoft tools & cloud,22.420382165605098
+cobol,Enterprise services,83.1847133757962
+cobol,Data management,30.573248407643295
+cobol,Digital security,33.5031847133758
+cobol,Source code management,19.7452229299363
+cobol,Database architecture,43.1847133757962
+cobol,Web development,67.64331210191081
+cobol,DevOps,30.828025477707
+code review,Applications & networks,1.01910828025478
+code review,Database administration,90.828025477707
+code review,Open source programming,84.07643312101911
+code review,User interface,49.171974522293
+code review,Artificial intelligence,22.420382165605098
+code review,Data processing,48.789808917197504
+code review,Testing & quality,94.7770700636943
+code review,Systems programming & robotics,32.8662420382166
+code review,Microsoft tools & cloud,50.9554140127389
+code review,Enterprise services,69.9363057324841
+code review,Data management,79.7452229299363
+code review,Digital security,93.2484076433121
+code review,Source code management,77.70700636942681
+code review,Database architecture,65.6050955414013
+code review,Web development,46.6242038216561
+code review,DevOps,59.3630573248408
+cognitive computing,Applications & networks,83.6942675159236
+cognitive computing,Database administration,21.5286624203822
+cognitive computing,Open source programming,82.29299363057329
+cognitive computing,User interface,54.0127388535032
+cognitive computing,Artificial intelligence,88.1528662420382
+cognitive computing,Data processing,47.8980891719745
+cognitive computing,Testing & quality,1.14649681528662
+cognitive computing,Systems programming & robotics,23.6942675159236
+cognitive computing,Microsoft tools & cloud,88.2802547770701
+cognitive computing,Enterprise services,62.547770700636896
+cognitive computing,Data management,38.9808917197452
+cognitive computing,Digital security,50.4458598726115
+cognitive computing,Source code management,10.7006369426752
+cognitive computing,Database architecture,29.8089171974522
+cognitive computing,Web development,16.687898089172002
+cognitive computing,DevOps,29.4267515923567
+collaborative filtering,Applications & networks,0.764331210191083
+collaborative filtering,Database administration,36.9426751592357
+collaborative filtering,Open source programming,21.1464968152866
+collaborative filtering,User interface,63.4394904458599
+collaborative filtering,Artificial intelligence,91.7197452229299
+collaborative filtering,Data processing,94.6496815286624
+collaborative filtering,Testing & quality,42.1656050955414
+collaborative filtering,Systems programming & robotics,81.0191082802548
+collaborative filtering,Microsoft tools & cloud,2.8025477707006403
+collaborative filtering,Enterprise services,14.6496815286624
+collaborative filtering,Data management,58.21656050955411
+collaborative filtering,Digital security,63.9490445859873
+collaborative filtering,Source code management,11.3375796178344
+collaborative filtering,Database architecture,17.4522292993631
+collaborative filtering,Web development,0.764331210191083
+collaborative filtering,DevOps,19.3630573248408
+computer vision,Applications & networks,31.210191082802503
+computer vision,Database administration,2.1656050955414
+computer vision,Open source programming,7.515923566878981
+computer vision,User interface,36.1783439490446
+computer vision,Artificial intelligence,99.6178343949045
+computer vision,Data processing,72.3566878980892
+computer vision,Testing & quality,7.006369426751589
+computer vision,Systems programming & robotics,86.1146496815287
+computer vision,Microsoft tools & cloud,37.1974522292994
+computer vision,Enterprise services,60.1273885350318
+computer vision,Data management,30.700636942675203
+computer vision,Digital security,66.624203821656
+computer vision,Source code management,32.484076433121004
+computer vision,Database architecture,15.5414012738853
+computer vision,Web development,39.8726114649682
+computer vision,DevOps,5.73248407643312
+computing,Applications & networks,28.1528662420382
+computing,Database administration,51.4649681528662
+computing,Open source programming,6.114649681528659
+computing,User interface,28.7898089171975
+computing,Artificial intelligence,63.8216560509554
+computing,Data processing,22.2929936305732
+computing,Testing & quality,54.3949044585987
+computing,Systems programming & robotics,5.85987261146497
+computing,Microsoft tools & cloud,78.8535031847134
+computing,Enterprise services,78.9808917197452
+computing,Data management,84.203821656051
+computing,Digital security,19.8726114649682
+computing,Source code management,25.4777070063694
+computing,Database architecture,8.6624203821656
+computing,Web development,13.6305732484076
+computing,DevOps,26.8789808917197
+continuous integration,Applications & networks,0.127388535031847
+continuous integration,Database administration,57.70700636942671
+continuous integration,Open source programming,37.8343949044586
+continuous integration,User interface,22.420382165605098
+continuous integration,Artificial intelligence,3.4394904458598696
+continuous integration,Data processing,18.2165605095541
+continuous integration,Testing & quality,50.4458598726115
+continuous integration,Systems programming & robotics,20.5095541401274
+continuous integration,Microsoft tools & cloud,24.8407643312102
+continuous integration,Enterprise services,52.356687898089206
+continuous integration,Data management,27.515923566879003
+continuous integration,Digital security,46.4968152866242
+continuous integration,Source code management,82.9299363057325
+continuous integration,Database architecture,73.5031847133758
+continuous integration,Web development,43.0573248407643
+continuous integration,DevOps,70.4458598726115
+convolutional neural network,Applications & networks,46.7515923566879
+convolutional neural network,Database administration,38.5987261146497
+convolutional neural network,Open source programming,31.4649681528662
+convolutional neural network,User interface,77.3248407643312
+convolutional neural network,Artificial intelligence,93.375796178344
+convolutional neural network,Data processing,70.1910828025478
+convolutional neural network,Testing & quality,32.9936305732484
+convolutional neural network,Systems programming & robotics,29.8089171974522
+convolutional neural network,Microsoft tools & cloud,54.52229299363061
+convolutional neural network,Enterprise services,40.8917197452229
+convolutional neural network,Data management,63.4394904458599
+convolutional neural network,Digital security,83.4394904458599
+convolutional neural network,Source code management,15.1592356687898
+convolutional neural network,Database architecture,82.5477707006369
+convolutional neural network,Web development,54.6496815286624
+convolutional neural network,DevOps,65.3503184713376
+data science,Applications & networks,15.2866242038217
+data science,Database administration,9.68152866242038
+data science,Open source programming,6.24203821656051
+data science,User interface,8.40764331210191
+data science,Artificial intelligence,98.59872611464972
+data science,Data processing,71.9745222929936
+data science,Testing & quality,12.2292993630573
+data science,Systems programming & robotics,48.1528662420382
+data science,Microsoft tools & cloud,14.5222929936306
+data science,Enterprise services,22.9299363057325
+data science,Data management,27.8980891719745
+data science,Digital security,21.0191082802548
+data science,Source code management,34.140127388535
+data science,Database architecture,38.4713375796178
+data science,Web development,15.1592356687898
+data science,DevOps,8.917197452229301
+database,Applications & networks,46.8789808917197
+database,Database administration,99.1082802547771
+database,Open source programming,45.859872611465
+database,User interface,9.29936305732484
+database,Artificial intelligence,11.8471337579618
+database,Data processing,18.9808917197452
+database,Testing & quality,21.9108280254777
+database,Systems programming & robotics,12.1019108280255
+database,Microsoft tools & cloud,7.26114649681529
+database,Enterprise services,55.031847133758006
+database,Data management,71.59235668789809
+database,Digital security,27.6433121019108
+database,Source code management,2.1656050955414
+database,Database architecture,51.7197452229299
+database,Web development,0.382165605095541
+database,DevOps,15.5414012738853
+decision tree,Applications & networks,11.7197452229299
+decision tree,Database administration,12.484076433121
+decision tree,Open source programming,9.93630573248408
+decision tree,User interface,54.6496815286624
+decision tree,Artificial intelligence,99.3630573248408
+decision tree,Data processing,80.1273885350319
+decision tree,Testing & quality,7.26114649681529
+decision tree,Systems programming & robotics,44.3312101910828
+decision tree,Microsoft tools & cloud,15.2866242038217
+decision tree,Enterprise services,18.7261146496815
+decision tree,Data management,40.6369426751592
+decision tree,Digital security,49.9363057324841
+decision tree,Source code management,7.133757961783441
+decision tree,Database architecture,21.9108280254777
+decision tree,Web development,3.5668789808917203
+decision tree,DevOps,7.133757961783441
+decision tree learning,Applications & networks,71.4649681528662
+decision tree learning,Database administration,7.006369426751589
+decision tree learning,Open source programming,43.312101910828
+decision tree learning,User interface,72.7388535031847
+decision tree learning,Artificial intelligence,94.5222929936306
+decision tree learning,Data processing,82.8025477707006
+decision tree learning,Testing & quality,50.828025477706994
+decision tree learning,Systems programming & robotics,86.8789808917197
+decision tree learning,Microsoft tools & cloud,28.280254777070105
+decision tree learning,Enterprise services,58.9808917197452
+decision tree learning,Data management,18.5987261146497
+decision tree learning,Digital security,59.8726114649682
+decision tree learning,Source code management,52.7388535031847
+decision tree learning,Database architecture,75.796178343949
+decision tree learning,Web development,80.38216560509551
+decision tree learning,DevOps,28.7898089171975
+deep learning,Applications & networks,38.9808917197452
+deep learning,Database administration,22.420382165605098
+deep learning,Open source programming,6.878980891719751
+deep learning,User interface,31.3375796178344
+deep learning,Artificial intelligence,98.343949044586
+deep learning,Data processing,90.3184713375796
+deep learning,Testing & quality,55.6687898089172
+deep learning,Systems programming & robotics,16.050955414012698
+deep learning,Microsoft tools & cloud,51.4649681528662
+deep learning,Enterprise services,46.6242038216561
+deep learning,Data management,46.7515923566879
+deep learning,Digital security,83.8216560509554
+deep learning,Source code management,46.4968152866242
+deep learning,Database architecture,20.1273885350318
+deep learning,Web development,48.0254777070064
+deep learning,DevOps,23.057324840764306
+dimensionality reduction,Applications & networks,75.4140127388535
+dimensionality reduction,Database administration,91.21019108280252
+dimensionality reduction,Open source programming,72.61146496815289
+dimensionality reduction,User interface,89.9363057324841
+dimensionality reduction,Artificial intelligence,95.2866242038217
+dimensionality reduction,Data processing,48.0254777070064
+dimensionality reduction,Testing & quality,29.0445859872611
+dimensionality reduction,Systems programming & robotics,61.40127388535031
+dimensionality reduction,Microsoft tools & cloud,26.4968152866242
+dimensionality reduction,Enterprise services,65.859872611465
+dimensionality reduction,Data management,22.420382165605098
+dimensionality reduction,Digital security,7.643312101910831
+dimensionality reduction,Source code management,23.949044585987306
+dimensionality reduction,Database architecture,48.5350318471338
+dimensionality reduction,Web development,34.0127388535032
+dimensionality reduction,DevOps,31.3375796178344
+document classification,Applications & networks,89.55414012738851
+document classification,Database administration,35.286624203821695
+document classification,Open source programming,14.7770700636943
+document classification,User interface,4.5859872611465
+document classification,Artificial intelligence,92.3566878980892
+document classification,Data processing,69.0445859872611
+document classification,Testing & quality,31.5923566878981
+document classification,Systems programming & robotics,53.1210191082803
+document classification,Microsoft tools & cloud,40.8917197452229
+document classification,Enterprise services,24.203821656051
+document classification,Data management,9.04458598726115
+document classification,Digital security,8.6624203821656
+document classification,Source code management,51.7197452229299
+document classification,Database architecture,4.71337579617834
+document classification,Web development,13.2484076433121
+document classification,DevOps,1.01910828025478
+econometrics,Applications & networks,44.7133757961783
+econometrics,Database administration,1.91082802547771
+econometrics,Open source programming,3.4394904458598696
+econometrics,User interface,47.515923566879
+econometrics,Artificial intelligence,96.5605095541401
+econometrics,Data processing,40.6369426751592
+econometrics,Testing & quality,40.1273885350318
+econometrics,Systems programming & robotics,73.8853503184713
+econometrics,Microsoft tools & cloud,10.5732484076433
+econometrics,Enterprise services,45.3503184713376
+econometrics,Data management,13.885350318471302
+econometrics,Digital security,56.05095541401271
+econometrics,Source code management,64.8407643312102
+econometrics,Database architecture,22.1656050955414
+econometrics,Web development,67.515923566879
+econometrics,DevOps,25.859872611465
+economic development,Applications & networks,73.5031847133758
+economic development,Database administration,34.777070063694296
+economic development,Open source programming,16.560509554140097
+economic development,User interface,56.687898089172
+economic development,Artificial intelligence,75.796178343949
+economic development,Data processing,27.3885350318471
+economic development,Testing & quality,72.9936305732484
+economic development,Systems programming & robotics,12.7388535031847
+economic development,Microsoft tools & cloud,94.7770700636943
+economic development,Enterprise services,69.0445859872611
+economic development,Data management,86.1146496815287
+economic development,Digital security,79.2356687898089
+economic development,Source code management,60.38216560509549
+economic development,Database architecture,6.24203821656051
+economic development,Web development,59.4904458598726
+economic development,DevOps,32.611464968152895
+economics,Applications & networks,33.8853503184713
+economics,Database administration,62.0382165605096
+economics,Open source programming,4.20382165605096
+economics,User interface,67.7707006369427
+economics,Artificial intelligence,62.6751592356688
+economics,Data processing,43.0573248407643
+economics,Testing & quality,45.605095541401305
+economics,Systems programming & robotics,37.0700636942675
+economics,Microsoft tools & cloud,87.1337579617834
+economics,Enterprise services,89.55414012738851
+economics,Data management,85.98726114649679
+economics,Digital security,69.171974522293
+economics,Source code management,91.8471337579618
+economics,Database architecture,21.2738853503185
+economics,Web development,43.1847133757962
+economics,DevOps,29.6815286624204
+ensemble learning,Applications & networks,14.7770700636943
+ensemble learning,Database administration,10.828025477707
+ensemble learning,Open source programming,3.18471337579618
+ensemble learning,User interface,21.5286624203822
+ensemble learning,Artificial intelligence,90.4458598726115
+ensemble learning,Data processing,83.5668789808917
+ensemble learning,Testing & quality,5.0955414012738895
+ensemble learning,Systems programming & robotics,84.203821656051
+ensemble learning,Microsoft tools & cloud,87.8980891719745
+ensemble learning,Enterprise services,3.94904458598726
+ensemble learning,Data management,48.0254777070064
+ensemble learning,Digital security,53.2484076433121
+ensemble learning,Source code management,8.280254777070061
+ensemble learning,Database architecture,68.4076433121019
+ensemble learning,Web development,20.1273885350318
+ensemble learning,DevOps,52.484076433121
+feature engineering,Applications & networks,42.42038216560511
+feature engineering,Database administration,8.6624203821656
+feature engineering,Open source programming,1.4012738853503202
+feature engineering,User interface,22.5477707006369
+feature engineering,Artificial intelligence,99.2356687898089
+feature engineering,Data processing,25.2229299363057
+feature engineering,Testing & quality,10.828025477707
+feature engineering,Systems programming & robotics,44.8407643312102
+feature engineering,Microsoft tools & cloud,24.203821656051
+feature engineering,Enterprise services,22.802547770700603
+feature engineering,Data management,28.1528662420382
+feature engineering,Digital security,60.0
+feature engineering,Source code management,21.656050955414
+feature engineering,Database architecture,10.828025477707
+feature engineering,Web development,5.2229299363057295
+feature engineering,DevOps,3.0573248407643296
+feature extraction,Applications & networks,42.5477707006369
+feature extraction,Database administration,11.2101910828025
+feature extraction,Open source programming,11.4649681528662
+feature extraction,User interface,16.560509554140097
+feature extraction,Artificial intelligence,94.6496815286624
+feature extraction,Data processing,23.6942675159236
+feature extraction,Testing & quality,1.91082802547771
+feature extraction,Systems programming & robotics,44.0764331210191
+feature extraction,Microsoft tools & cloud,31.8471337579618
+feature extraction,Enterprise services,7.89808917197452
+feature extraction,Data management,1.52866242038217
+feature extraction,Digital security,8.917197452229301
+feature extraction,Source code management,4.71337579617834
+feature extraction,Database architecture,0.764331210191083
+feature extraction,Web development,2.1656050955414
+feature extraction,DevOps,7.89808917197452
+feature selection,Applications & networks,1.52866242038217
+feature selection,Database administration,10.3184713375796
+feature selection,Open source programming,11.0828025477707
+feature selection,User interface,76.5605095541401
+feature selection,Artificial intelligence,95.031847133758
+feature selection,Data processing,87.7707006369427
+feature selection,Testing & quality,3.94904458598726
+feature selection,Systems programming & robotics,74.5222929936306
+feature selection,Microsoft tools & cloud,2.29299363057325
+feature selection,Enterprise services,17.4522292993631
+feature selection,Data management,8.15286624203822
+feature selection,Digital security,54.2675159235669
+feature selection,Source code management,24.0764331210191
+feature selection,Database architecture,48.9171974522293
+feature selection,Web development,45.7324840764331
+feature selection,DevOps,18.2165605095541
+front and back ends,Applications & networks,8.6624203821656
+front and back ends,Database administration,94.140127388535
+front and back ends,Open source programming,26.2420382165605
+front and back ends,User interface,22.0382165605096
+front and back ends,Artificial intelligence,47.3885350318471
+front and back ends,Data processing,52.7388535031847
+front and back ends,Testing & quality,22.802547770700603
+front and back ends,Systems programming & robotics,62.1656050955414
+front and back ends,Microsoft tools & cloud,51.5923566878981
+front and back ends,Enterprise services,54.52229299363061
+front and back ends,Data management,55.541401273885306
+front and back ends,Digital security,30.828025477707
+front and back ends,Source code management,40.8917197452229
+front and back ends,Database architecture,91.7197452229299
+front and back ends,Web development,37.9617834394904
+front and back ends,DevOps,67.89808917197449
+fuzzy logic,Applications & networks,54.0127388535032
+fuzzy logic,Database administration,37.9617834394904
+fuzzy logic,Open source programming,56.4331210191083
+fuzzy logic,User interface,50.3184713375796
+fuzzy logic,Artificial intelligence,90.828025477707
+fuzzy logic,Data processing,90.828025477707
+fuzzy logic,Testing & quality,20.2547770700637
+fuzzy logic,Systems programming & robotics,85.0955414012739
+fuzzy logic,Microsoft tools & cloud,12.9936305732484
+fuzzy logic,Enterprise services,2.54777070063694
+fuzzy logic,Data management,43.8216560509554
+fuzzy logic,Digital security,31.9745222929936
+fuzzy logic,Source code management,11.8471337579618
+fuzzy logic,Database architecture,29.4267515923567
+fuzzy logic,Web development,6.24203821656051
+fuzzy logic,DevOps,12.7388535031847
+gaussian process,Applications & networks,88.66242038216559
+gaussian process,Database administration,56.3057324840764
+gaussian process,Open source programming,15.9235668789809
+gaussian process,User interface,5.47770700636943
+gaussian process,Artificial intelligence,87.3885350318471
+gaussian process,Data processing,53.7579617834395
+gaussian process,Testing & quality,12.9936305732484
+gaussian process,Systems programming & robotics,85.4777070063694
+gaussian process,Microsoft tools & cloud,5.47770700636943
+gaussian process,Enterprise services,3.4394904458598696
+gaussian process,Data management,10.4458598726115
+gaussian process,Digital security,13.2484076433121
+gaussian process,Source code management,44.8407643312102
+gaussian process,Database architecture,34.9044585987261
+gaussian process,Web development,48.1528662420382
+gaussian process,DevOps,17.4522292993631
+genetic algorithm,Applications & networks,33.3757961783439
+genetic algorithm,Database administration,8.40764331210191
+genetic algorithm,Open source programming,36.4331210191083
+genetic algorithm,User interface,10.828025477707
+genetic algorithm,Artificial intelligence,94.0127388535032
+genetic algorithm,Data processing,75.796178343949
+genetic algorithm,Testing & quality,0.127388535031847
+genetic algorithm,Systems programming & robotics,85.6050955414013
+genetic algorithm,Microsoft tools & cloud,49.8089171974522
+genetic algorithm,Enterprise services,8.6624203821656
+genetic algorithm,Data management,16.050955414012698
+genetic algorithm,Digital security,16.560509554140097
+genetic algorithm,Source code management,2.0382165605095497
+genetic algorithm,Database architecture,22.5477707006369
+genetic algorithm,Web development,13.1210191082803
+genetic algorithm,DevOps,14.6496815286624
+gradient boosting,Applications & networks,72.8662420382166
+gradient boosting,Database administration,73.6305732484076
+gradient boosting,Open source programming,4.5859872611465
+gradient boosting,User interface,77.5796178343949
+gradient boosting,Artificial intelligence,89.68152866242039
+gradient boosting,Data processing,43.9490445859873
+gradient boosting,Testing & quality,2.8025477707006403
+gradient boosting,Systems programming & robotics,80.7643312101911
+gradient boosting,Microsoft tools & cloud,1.78343949044586
+gradient boosting,Enterprise services,21.9108280254777
+gradient boosting,Data management,3.31210191082803
+gradient boosting,Digital security,16.9426751592357
+gradient boosting,Source code management,7.770700636942671
+gradient boosting,Database architecture,0.8917197452229301
+gradient boosting,Web development,3.18471337579618
+gradient boosting,DevOps,2.29299363057325
+hidden markov model,Applications & networks,87.8980891719745
+hidden markov model,Database administration,98.72611464968148
+hidden markov model,Open source programming,68.5350318471338
+hidden markov model,User interface,94.3949044585987
+hidden markov model,Artificial intelligence,94.7770700636943
+hidden markov model,Data processing,76.1783439490446
+hidden markov model,Testing & quality,42.9299363057325
+hidden markov model,Systems programming & robotics,84.4585987261147
+hidden markov model,Microsoft tools & cloud,37.5796178343949
+hidden markov model,Enterprise services,59.235668789808905
+hidden markov model,Data management,70.1910828025478
+hidden markov model,Digital security,27.770700636942703
+hidden markov model,Source code management,20.0
+hidden markov model,Database architecture,24.3312101910828
+hidden markov model,Web development,2.67515923566879
+hidden markov model,DevOps,37.5796178343949
+higher education,Applications & networks,35.159235668789805
+higher education,Database administration,68.5350318471338
+higher education,Open source programming,3.69426751592357
+higher education,User interface,34.0127388535032
+higher education,Artificial intelligence,59.1082802547771
+higher education,Data processing,13.6305732484076
+higher education,Testing & quality,41.1464968152866
+higher education,Systems programming & robotics,4.71337579617834
+higher education,Microsoft tools & cloud,74.26751592356689
+higher education,Enterprise services,85.4777070063694
+higher education,Data management,84.33121019108279
+higher education,Digital security,18.7261146496815
+higher education,Source code management,25.9872611464968
+higher education,Database architecture,5.73248407643312
+higher education,Web development,9.42675159235669
+higher education,DevOps,24.203821656051
+html,Applications & networks,13.757961783439502
+html,Database administration,89.2993630573248
+html,Open source programming,28.9171974522293
+html,User interface,12.9936305732484
+html,Artificial intelligence,21.2738853503185
+html,Data processing,4.84076433121019
+html,Testing & quality,73.6305732484076
+html,Systems programming & robotics,36.8152866242038
+html,Microsoft tools & cloud,23.6942675159236
+html,Enterprise services,11.4649681528662
+html,Data management,17.579617834394902
+html,Digital security,0.764331210191083
+html,Source code management,1.78343949044586
+html,Database architecture,20.5095541401274
+html,Web development,2.29299363057325
+html,DevOps,15.1592356687898
+ibm,Applications & networks,71.9745222929936
+ibm,Database administration,61.7834394904459
+ibm,Open source programming,66.4968152866242
+ibm,User interface,22.1656050955414
+ibm,Artificial intelligence,28.1528662420382
+ibm,Data processing,7.515923566878981
+ibm,Testing & quality,49.9363057324841
+ibm,Systems programming & robotics,11.2101910828025
+ibm,Microsoft tools & cloud,23.1847133757962
+ibm,Enterprise services,39.745222929936304
+ibm,Data management,9.42675159235669
+ibm,Digital security,3.18471337579618
+ibm,Source code management,17.7070063694268
+ibm,Database architecture,37.3248407643312
+ibm,Web development,7.133757961783441
+ibm,DevOps,50.3184713375796
+ibm db2 family,Applications & networks,76.0509554140127
+ibm db2 family,Database administration,73.24840764331209
+ibm db2 family,Open source programming,94.5222929936306
+ibm db2 family,User interface,57.70700636942671
+ibm db2 family,Artificial intelligence,49.8089171974522
+ibm db2 family,Data processing,22.420382165605098
+ibm db2 family,Testing & quality,41.4012738853503
+ibm db2 family,Systems programming & robotics,28.7898089171975
+ibm db2 family,Microsoft tools & cloud,20.6369426751592
+ibm db2 family,Enterprise services,71.7197452229299
+ibm db2 family,Data management,9.29936305732484
+ibm db2 family,Digital security,12.9936305732484
+ibm db2 family,Source code management,18.4713375796178
+ibm db2 family,Database architecture,39.6178343949045
+ibm db2 family,Web development,19.8726114649682
+ibm db2 family,DevOps,51.2101910828025
+ibm mq,Applications & networks,79.49044585987261
+ibm mq,Database administration,74.01273885350321
+ibm mq,Open source programming,96.1783439490446
+ibm mq,User interface,64.7133757961783
+ibm mq,Artificial intelligence,57.70700636942671
+ibm mq,Data processing,23.1847133757962
+ibm mq,Testing & quality,35.796178343948995
+ibm mq,Systems programming & robotics,39.1082802547771
+ibm mq,Microsoft tools & cloud,36.5605095541401
+ibm mq,Enterprise services,61.0191082802548
+ibm mq,Data management,21.2738853503185
+ibm mq,Digital security,45.9872611464968
+ibm mq,Source code management,17.1974522292994
+ibm mq,Database architecture,43.4394904458599
+ibm mq,Web development,19.1082802547771
+ibm mq,DevOps,44.3312101910828
+ibm system i,Applications & networks,81.7834394904459
+ibm system i,Database administration,88.53503184713381
+ibm system i,Open source programming,97.1974522292994
+ibm system i,User interface,74.140127388535
+ibm system i,Artificial intelligence,41.52866242038221
+ibm system i,Data processing,24.5859872611465
+ibm system i,Testing & quality,31.210191082802503
+ibm system i,Systems programming & robotics,35.9235668789809
+ibm system i,Microsoft tools & cloud,41.9108280254777
+ibm system i,Enterprise services,70.31847133757961
+ibm system i,Data management,9.80891719745223
+ibm system i,Digital security,11.8471337579618
+ibm system i,Source code management,8.15286624203822
+ibm system i,Database architecture,23.6942675159236
+ibm system i,Web development,9.80891719745223
+ibm system i,DevOps,35.9235668789809
+ibm websphere,Applications & networks,67.515923566879
+ibm websphere,Database administration,88.0254777070064
+ibm websphere,Open source programming,96.05095541401268
+ibm websphere,User interface,62.42038216560511
+ibm websphere,Artificial intelligence,58.5987261146497
+ibm websphere,Data processing,30.3184713375796
+ibm websphere,Testing & quality,33.1210191082803
+ibm websphere,Systems programming & robotics,43.312101910828
+ibm websphere,Microsoft tools & cloud,34.2675159235669
+ibm websphere,Enterprise services,74.140127388535
+ibm websphere,Data management,35.4140127388535
+ibm websphere,Digital security,34.5222929936306
+ibm websphere,Source code management,21.7834394904459
+ibm websphere,Database architecture,42.9299363057325
+ibm websphere,Web development,11.9745222929936
+ibm websphere,DevOps,66.4968152866242
+intelligent agent,Applications & networks,67.89808917197449
+intelligent agent,Database administration,65.859872611465
+intelligent agent,Open source programming,8.02547770700637
+intelligent agent,User interface,45.7324840764331
+intelligent agent,Artificial intelligence,95.1592356687898
+intelligent agent,Data processing,41.2738853503185
+intelligent agent,Testing & quality,8.917197452229301
+intelligent agent,Systems programming & robotics,39.745222929936304
+intelligent agent,Microsoft tools & cloud,2.0382165605095497
+intelligent agent,Enterprise services,2.67515923566879
+intelligent agent,Data management,39.745222929936304
+intelligent agent,Digital security,26.8789808917197
+intelligent agent,Source code management,11.0828025477707
+intelligent agent,Database architecture,26.3694267515924
+intelligent agent,Web development,30.828025477707
+intelligent agent,DevOps,6.24203821656051
+java,Applications & networks,16.687898089172002
+java,Database administration,19.3630573248408
+java,Open source programming,86.7515923566879
+java,User interface,29.5541401273885
+java,Artificial intelligence,3.8216560509554096
+java,Data processing,9.80891719745223
+java,Testing & quality,52.866242038216605
+java,Systems programming & robotics,51.5923566878981
+java,Microsoft tools & cloud,8.917197452229301
+java,Enterprise services,76.94267515923569
+java,Data management,62.6751592356688
+java,Digital security,26.4968152866242
+java,Source code management,44.7133757961783
+java,Database architecture,54.9044585987261
+java,Web development,60.0
+java,DevOps,41.4012738853503
+java (programming language),Applications & networks,21.656050955414
+java (programming language),Database administration,79.61783439490449
+java (programming language),Open source programming,89.171974522293
+java (programming language),User interface,28.4076433121019
+java (programming language),Artificial intelligence,31.9745222929936
+java (programming language),Data processing,15.2866242038217
+java (programming language),Testing & quality,4.20382165605096
+java (programming language),Systems programming & robotics,43.6942675159236
+java (programming language),Microsoft tools & cloud,7.770700636942671
+java (programming language),Enterprise services,66.87898089171969
+java (programming language),Data management,54.0127388535032
+java (programming language),Digital security,14.0127388535032
+java (programming language),Source code management,0.764331210191083
+java (programming language),Database architecture,11.7197452229299
+java (programming language),Web development,5.35031847133758
+java (programming language),DevOps,7.26114649681529
+javascript,Applications & networks,29.5541401273885
+javascript,Database administration,58.72611464968151
+javascript,Open source programming,37.3248407643312
+javascript,User interface,6.24203821656051
+javascript,Artificial intelligence,11.2101910828025
+javascript,Data processing,8.6624203821656
+javascript,Testing & quality,21.7834394904459
+javascript,Systems programming & robotics,55.1592356687898
+javascript,Microsoft tools & cloud,2.54777070063694
+javascript,Enterprise services,3.69426751592357
+javascript,Data management,51.84713375796181
+javascript,Digital security,1.78343949044586
+javascript,Source code management,6.878980891719751
+javascript,Database architecture,4.5859872611465
+javascript,Web development,1.91082802547771
+javascript,DevOps,1.14649681528662
+k-means clustering,Applications & networks,77.96178343949049
+k-means clustering,Database administration,26.751592356687897
+k-means clustering,Open source programming,10.7006369426752
+k-means clustering,User interface,15.031847133758
+k-means clustering,Artificial intelligence,90.0636942675159
+k-means clustering,Data processing,54.9044585987261
+k-means clustering,Testing & quality,37.1974522292994
+k-means clustering,Systems programming & robotics,32.2292993630573
+k-means clustering,Microsoft tools & cloud,9.17197452229299
+k-means clustering,Enterprise services,24.3312101910828
+k-means clustering,Data management,42.5477707006369
+k-means clustering,Digital security,28.280254777070105
+k-means clustering,Source code management,35.159235668789805
+k-means clustering,Database architecture,45.4777070063694
+k-means clustering,Web development,28.7898089171975
+k-means clustering,DevOps,0.764331210191083
+knowledge graph,Applications & networks,58.5987261146497
+knowledge graph,Database administration,4.84076433121019
+knowledge graph,Open source programming,5.73248407643312
+knowledge graph,User interface,23.4394904458599
+knowledge graph,Artificial intelligence,93.2484076433121
+knowledge graph,Data processing,10.4458598726115
+knowledge graph,Testing & quality,13.1210191082803
+knowledge graph,Systems programming & robotics,78.7261146496815
+knowledge graph,Microsoft tools & cloud,1.91082802547771
+knowledge graph,Enterprise services,14.0127388535032
+knowledge graph,Data management,14.9044585987261
+knowledge graph,Digital security,9.80891719745223
+knowledge graph,Source code management,7.515923566878981
+knowledge graph,Database architecture,1.14649681528662
+knowledge graph,Web development,48.2802547770701
+knowledge graph,DevOps,0.382165605095541
+linear regression,Applications & networks,53.375796178343904
+linear regression,Database administration,26.1146496815287
+linear regression,Open source programming,14.2675159235669
+linear regression,User interface,39.8726114649682
+linear regression,Artificial intelligence,94.3949044585987
+linear regression,Data processing,68.0254777070064
+linear regression,Testing & quality,12.3566878980892
+linear regression,Systems programming & robotics,74.9044585987261
+linear regression,Microsoft tools & cloud,4.3312101910828
+linear regression,Enterprise services,37.5796178343949
+linear regression,Data management,25.095541401273906
+linear regression,Digital security,68.5350318471338
+linear regression,Source code management,27.261146496815304
+linear regression,Database architecture,11.3375796178344
+linear regression,Web development,20.764331210191106
+linear regression,DevOps,2.92993630573248
+logic,Applications & networks,84.968152866242
+logic,Database administration,94.7770700636943
+logic,Open source programming,49.8089171974522
+logic,User interface,94.0127388535032
+logic,Artificial intelligence,35.4140127388535
+logic,Data processing,8.15286624203822
+logic,Testing & quality,25.6050955414013
+logic,Systems programming & robotics,55.541401273885306
+logic,Microsoft tools & cloud,67.1337579617834
+logic,Enterprise services,68.6624203821656
+logic,Data management,57.3248407643312
+logic,Digital security,81.7834394904459
+logic,Source code management,20.764331210191106
+logic,Database architecture,54.52229299363061
+logic,Web development,39.1082802547771
+logic,DevOps,73.24840764331209
+logic programming,Applications & networks,49.4267515923567
+logic programming,Database administration,70.828025477707
+logic programming,Open source programming,20.6369426751592
+logic programming,User interface,64.8407643312102
+logic programming,Artificial intelligence,39.3630573248408
+logic programming,Data processing,3.69426751592357
+logic programming,Testing & quality,1.52866242038217
+logic programming,Systems programming & robotics,15.4140127388535
+logic programming,Microsoft tools & cloud,36.4331210191083
+logic programming,Enterprise services,23.4394904458599
+logic programming,Data management,19.3630573248408
+logic programming,Digital security,72.9936305732484
+logic programming,Source code management,5.73248407643312
+logic programming,Database architecture,60.5095541401274
+logic programming,Web development,31.5923566878981
+logic programming,DevOps,42.5477707006369
+logistic regression,Applications & networks,74.140127388535
+logistic regression,Database administration,2.8025477707006403
+logistic regression,Open source programming,22.802547770700603
+logistic regression,User interface,94.5222929936306
+logistic regression,Artificial intelligence,93.5031847133758
+logistic regression,Data processing,56.4331210191083
+logistic regression,Testing & quality,24.968152866242
+logistic regression,Systems programming & robotics,24.7133757961783
+logistic regression,Microsoft tools & cloud,80.8917197452229
+logistic regression,Enterprise services,53.1210191082803
+logistic regression,Data management,7.133757961783441
+logistic regression,Digital security,81.1464968152866
+logistic regression,Source code management,44.968152866242
+logistic regression,Database architecture,36.8152866242038
+logistic regression,Web development,46.114649681528704
+logistic regression,DevOps,23.949044585987306
+long short-term memory,Applications & networks,81.1464968152866
+long short-term memory,Database administration,66.4968152866242
+long short-term memory,Open source programming,12.1019108280255
+long short-term memory,User interface,65.3503184713376
+long short-term memory,Artificial intelligence,98.8535031847134
+long short-term memory,Data processing,77.8343949044586
+long short-term memory,Testing & quality,4.07643312101911
+long short-term memory,Systems programming & robotics,83.9490445859873
+long short-term memory,Microsoft tools & cloud,58.21656050955411
+long short-term memory,Enterprise services,21.656050955414
+long short-term memory,Data management,20.2547770700637
+long short-term memory,Digital security,38.0891719745223
+long short-term memory,Source code management,0.382165605095541
+long short-term memory,Database architecture,31.0828025477707
+long short-term memory,Web development,36.1783439490446
+long short-term memory,DevOps,13.885350318471302
+machine learning,Applications & networks,25.859872611465
+machine learning,Database administration,20.5095541401274
+machine learning,Open source programming,9.68152866242038
+machine learning,User interface,2.29299363057325
+machine learning,Artificial intelligence,97.57961783439492
+machine learning,Data processing,73.3757961783439
+machine learning,Testing & quality,44.5859872611465
+machine learning,Systems programming & robotics,2.1656050955414
+machine learning,Microsoft tools & cloud,5.0955414012738895
+machine learning,Enterprise services,52.9936305732484
+machine learning,Data management,42.9299363057325
+machine learning,Digital security,16.687898089172002
+machine learning,Source code management,31.7197452229299
+machine learning,Database architecture,42.42038216560511
+machine learning,Web development,11.2101910828025
+machine learning,DevOps,13.6305732484076
+machine translation,Applications & networks,68.6624203821656
+machine translation,Database administration,30.3184713375796
+machine translation,Open source programming,13.5031847133758
+machine translation,User interface,16.305732484076398
+machine translation,Artificial intelligence,97.4522292993631
+machine translation,Data processing,85.4777070063694
+machine translation,Testing & quality,55.2866242038217
+machine translation,Systems programming & robotics,75.6687898089172
+machine translation,Microsoft tools & cloud,60.0
+machine translation,Enterprise services,4.07643312101911
+machine translation,Data management,37.8343949044586
+machine translation,Digital security,50.5732484076433
+machine translation,Source code management,30.700636942675203
+machine translation,Database architecture,18.5987261146497
+machine translation,Web development,18.5987261146497
+machine translation,DevOps,26.2420382165605
+mapreduce,Applications & networks,42.8025477707006
+mapreduce,Database administration,11.4649681528662
+mapreduce,Open source programming,2.1656050955414
+mapreduce,User interface,11.0828025477707
+mapreduce,Artificial intelligence,99.74522292993628
+mapreduce,Data processing,87.00636942675159
+mapreduce,Testing & quality,51.7197452229299
+mapreduce,Systems programming & robotics,33.8853503184713
+mapreduce,Microsoft tools & cloud,33.1210191082803
+mapreduce,Enterprise services,39.6178343949045
+mapreduce,Data management,69.9363057324841
+mapreduce,Digital security,48.6624203821656
+mapreduce,Source code management,70.4458598726115
+mapreduce,Database architecture,9.55414012738854
+mapreduce,Web development,45.4777070063694
+mapreduce,DevOps,22.1656050955414
+microservices,Applications & networks,12.9936305732484
+microservices,Database administration,31.8471337579618
+microservices,Open source programming,48.789808917197504
+microservices,User interface,3.5668789808917203
+microservices,Artificial intelligence,6.6242038216560495
+microservices,Data processing,3.94904458598726
+microservices,Testing & quality,88.53503184713381
+microservices,Systems programming & robotics,20.764331210191106
+microservices,Microsoft tools & cloud,38.4713375796178
+microservices,Enterprise services,59.6178343949045
+microservices,Data management,65.4777070063694
+microservices,Digital security,52.2292993630573
+microservices,Source code management,62.42038216560511
+microservices,Database architecture,89.4267515923567
+microservices,Web development,76.0509554140127
+microservices,DevOps,95.4140127388535
+middleware,Applications & networks,12.8662420382166
+middleware,Database administration,24.968152866242
+middleware,Open source programming,85.3503184713376
+middleware,User interface,28.0254777070064
+middleware,Artificial intelligence,25.9872611464968
+middleware,Data processing,17.3248407643312
+middleware,Testing & quality,29.8089171974522
+middleware,Systems programming & robotics,14.140127388535
+middleware,Microsoft tools & cloud,49.5541401273885
+middleware,Enterprise services,47.2611464968153
+middleware,Data management,19.1082802547771
+middleware,Digital security,30.445859872611504
+middleware,Source code management,27.770700636942703
+middleware,Database architecture,62.0382165605096
+middleware,Web development,21.4012738853503
+middleware,DevOps,37.7070063694268
+ml (programming language),Applications & networks,78.0891719745223
+ml (programming language),Database administration,13.2484076433121
+ml (programming language),Open source programming,35.796178343948995
+ml (programming language),User interface,51.7197452229299
+ml (programming language),Artificial intelligence,93.12101910828032
+ml (programming language),Data processing,31.3375796178344
+ml (programming language),Testing & quality,17.0700636942675
+ml (programming language),Systems programming & robotics,38.4713375796178
+ml (programming language),Microsoft tools & cloud,64.5859872611465
+ml (programming language),Enterprise services,46.4968152866242
+ml (programming language),Data management,1.65605095541401
+ml (programming language),Digital security,11.9745222929936
+ml (programming language),Source code management,15.5414012738853
+ml (programming language),Database architecture,28.4076433121019
+ml (programming language),Web development,28.280254777070105
+ml (programming language),DevOps,16.9426751592357
+natural-language understanding,Applications & networks,46.3694267515924
+natural-language understanding,Database administration,0.764331210191083
+natural-language understanding,Open source programming,1.65605095541401
+natural-language understanding,User interface,4.4585987261146505
+natural-language understanding,Artificial intelligence,98.0891719745223
+natural-language understanding,Data processing,34.3949044585987
+natural-language understanding,Testing & quality,15.6687898089172
+natural-language understanding,Systems programming & robotics,46.2420382165605
+natural-language understanding,Microsoft tools & cloud,12.1019108280255
+natural-language understanding,Enterprise services,9.68152866242038
+natural-language understanding,Data management,6.6242038216560495
+natural-language understanding,Digital security,3.5668789808917203
+natural-language understanding,Source code management,22.9299363057325
+natural-language understanding,Database architecture,2.54777070063694
+natural-language understanding,Web development,14.2675159235669
+natural-language understanding,DevOps,1.78343949044586
+natural language processing,Applications & networks,34.0127388535032
+natural language processing,Database administration,8.15286624203822
+natural language processing,Open source programming,21.0191082802548
+natural language processing,User interface,21.656050955414
+natural language processing,Artificial intelligence,98.9808917197452
+natural language processing,Data processing,85.85987261146501
+natural language processing,Testing & quality,47.7707006369427
+natural language processing,Systems programming & robotics,12.3566878980892
+natural language processing,Microsoft tools & cloud,32.484076433121004
+natural language processing,Enterprise services,43.1847133757962
+natural language processing,Data management,56.687898089172
+natural language processing,Digital security,46.114649681528704
+natural language processing,Source code management,37.8343949044586
+natural language processing,Database architecture,31.4649681528662
+natural language processing,Web development,49.8089171974522
+natural language processing,DevOps,21.4012738853503
+neural network,Applications & networks,4.07643312101911
+neural network,Database administration,60.89171974522291
+neural network,Open source programming,9.80891719745223
+neural network,User interface,16.050955414012698
+neural network,Artificial intelligence,93.6305732484076
+neural network,Data processing,83.6942675159236
+neural network,Testing & quality,18.343949044586
+neural network,Systems programming & robotics,53.8853503184713
+neural network,Microsoft tools & cloud,1.01910828025478
+neural network,Enterprise services,34.140127388535
+neural network,Data management,20.6369426751592
+neural network,Digital security,28.6624203821656
+neural network,Source code management,51.4649681528662
+neural network,Database architecture,4.84076433121019
+neural network,Web development,37.4522292993631
+neural network,DevOps,18.343949044586
+object-oriented programming,Applications & networks,71.7197452229299
+object-oriented programming,Database administration,94.2675159235669
+object-oriented programming,Open source programming,76.1783439490446
+object-oriented programming,User interface,18.5987261146497
+object-oriented programming,Artificial intelligence,10.9554140127389
+object-oriented programming,Data processing,37.8343949044586
+object-oriented programming,Testing & quality,71.7197452229299
+object-oriented programming,Systems programming & robotics,27.515923566879003
+object-oriented programming,Microsoft tools & cloud,15.5414012738853
+object-oriented programming,Enterprise services,78.7261146496815
+object-oriented programming,Data management,87.8980891719745
+object-oriented programming,Digital security,86.2420382165605
+object-oriented programming,Source code management,29.5541401273885
+object-oriented programming,Database architecture,52.9936305732484
+object-oriented programming,Web development,15.796178343949
+object-oriented programming,DevOps,75.4140127388535
+object detection,Applications & networks,58.8535031847134
+object detection,Database administration,55.031847133758006
+object detection,Open source programming,51.0828025477707
+object detection,User interface,55.4140127388535
+object detection,Artificial intelligence,94.140127388535
+object detection,Data processing,71.2101910828025
+object detection,Testing & quality,35.159235668789805
+object detection,Systems programming & robotics,84.968152866242
+object detection,Microsoft tools & cloud,11.4649681528662
+object detection,Enterprise services,32.611464968152895
+object detection,Data management,33.7579617834395
+object detection,Digital security,28.9171974522293
+object detection,Source code management,17.3248407643312
+object detection,Database architecture,44.968152866242
+object detection,Web development,44.7133757961783
+object detection,DevOps,34.0127388535032
+pair programming,Applications & networks,2.8025477707006403
+pair programming,Database administration,66.1146496815287
+pair programming,Open source programming,87.6433121019108
+pair programming,User interface,80.38216560509551
+pair programming,Artificial intelligence,47.8980891719745
+pair programming,Data processing,63.312101910828
+pair programming,Testing & quality,93.8853503184713
+pair programming,Systems programming & robotics,58.0891719745223
+pair programming,Microsoft tools & cloud,69.0445859872611
+pair programming,Enterprise services,89.68152866242039
+pair programming,Data management,88.2802547770701
+pair programming,Digital security,95.9235668789809
+pair programming,Source code management,94.6496815286624
+pair programming,Database architecture,94.2675159235669
+pair programming,Web development,67.3885350318471
+pair programming,DevOps,87.00636942675159
+pattern recognition,Applications & networks,27.8980891719745
+pattern recognition,Database administration,11.9745222929936
+pattern recognition,Open source programming,21.9108280254777
+pattern recognition,User interface,24.3312101910828
+pattern recognition,Artificial intelligence,98.2165605095541
+pattern recognition,Data processing,77.70700636942681
+pattern recognition,Testing & quality,9.42675159235669
+pattern recognition,Systems programming & robotics,39.2356687898089
+pattern recognition,Microsoft tools & cloud,60.7643312101911
+pattern recognition,Enterprise services,22.1656050955414
+pattern recognition,Data management,2.92993630573248
+pattern recognition,Digital security,25.4777070063694
+pattern recognition,Source code management,3.94904458598726
+pattern recognition,Database architecture,18.0891719745223
+pattern recognition,Web development,2.54777070063694
+pattern recognition,DevOps,8.53503184713376
+predictive analytics,Applications & networks,43.5668789808917
+predictive analytics,Database administration,5.35031847133758
+predictive analytics,Open source programming,3.5668789808917203
+predictive analytics,User interface,12.3566878980892
+predictive analytics,Artificial intelligence,99.1082802547771
+predictive analytics,Data processing,18.5987261146497
+predictive analytics,Testing & quality,31.9745222929936
+predictive analytics,Systems programming & robotics,77.1974522292994
+predictive analytics,Microsoft tools & cloud,21.7834394904459
+predictive analytics,Enterprise services,50.7006369426752
+predictive analytics,Data management,38.7261146496815
+predictive analytics,Digital security,48.2802547770701
+predictive analytics,Source code management,48.0254777070064
+predictive analytics,Database architecture,3.31210191082803
+predictive analytics,Web development,49.171974522293
+predictive analytics,DevOps,2.67515923566879
+python (programming language),Applications & networks,3.18471337579618
+python (programming language),Database administration,40.5095541401274
+python (programming language),Open source programming,39.6178343949045
+python (programming language),User interface,0.636942675159236
+python (programming language),Artificial intelligence,69.8089171974522
+python (programming language),Data processing,1.65605095541401
+python (programming language),Testing & quality,43.312101910828
+python (programming language),Systems programming & robotics,42.9299363057325
+python (programming language),Microsoft tools & cloud,0.509554140127389
+python (programming language),Enterprise services,44.968152866242
+python (programming language),Data management,34.0127388535032
+python (programming language),Digital security,1.91082802547771
+python (programming language),Source code management,4.20382165605096
+python (programming language),Database architecture,7.3885350318471295
+python (programming language),Web development,9.29936305732484
+python (programming language),DevOps,22.0382165605096
+pytorch,Applications & networks,14.140127388535
+pytorch,Database administration,6.6242038216560495
+pytorch,Open source programming,4.71337579617834
+pytorch,User interface,25.3503184713376
+pytorch,Artificial intelligence,98.72611464968148
+pytorch,Data processing,80.7643312101911
+pytorch,Testing & quality,5.2229299363057295
+pytorch,Systems programming & robotics,71.59235668789809
+pytorch,Microsoft tools & cloud,40.6369426751592
+pytorch,Enterprise services,8.789808917197451
+pytorch,Data management,5.98726114649682
+pytorch,Digital security,19.3630573248408
+pytorch,Source code management,13.885350318471302
+pytorch,Database architecture,3.94904458598726
+pytorch,Web development,18.2165605095541
+pytorch,DevOps,11.0828025477707
+random forest,Applications & networks,16.8152866242038
+random forest,Database administration,13.1210191082803
+random forest,Open source programming,7.3885350318471295
+random forest,User interface,78.7261146496815
+random forest,Artificial intelligence,99.8726114649682
+random forest,Data processing,38.0891719745223
+random forest,Testing & quality,19.4904458598726
+random forest,Systems programming & robotics,8.280254777070061
+random forest,Microsoft tools & cloud,11.3375796178344
+random forest,Enterprise services,43.5668789808917
+random forest,Data management,33.6305732484076
+random forest,Digital security,57.0700636942675
+random forest,Source code management,38.4713375796178
+random forest,Database architecture,9.93630573248408
+random forest,Web development,34.5222929936306
+random forest,DevOps,17.1974522292994
+recommender system,Applications & networks,35.5414012738853
+recommender system,Database administration,3.94904458598726
+recommender system,Open source programming,17.834394904458602
+recommender system,User interface,23.057324840764306
+recommender system,Artificial intelligence,96.687898089172
+recommender system,Data processing,64.7133757961783
+recommender system,Testing & quality,21.656050955414
+recommender system,Systems programming & robotics,41.1464968152866
+recommender system,Microsoft tools & cloud,50.0636942675159
+recommender system,Enterprise services,25.7324840764331
+recommender system,Data management,23.1847133757962
+recommender system,Digital security,31.5923566878981
+recommender system,Source code management,8.6624203821656
+recommender system,Database architecture,8.02547770700637
+recommender system,Web development,26.2420382165605
+recommender system,DevOps,12.9936305732484
+recurrent neural network,Applications & networks,50.19108280254781
+recurrent neural network,Database administration,14.0127388535032
+recurrent neural network,Open source programming,10.0636942675159
+recurrent neural network,User interface,44.8407643312102
+recurrent neural network,Artificial intelligence,93.8853503184713
+recurrent neural network,Data processing,41.656050955414
+recurrent neural network,Testing & quality,41.7834394904459
+recurrent neural network,Systems programming & robotics,82.9299363057325
+recurrent neural network,Microsoft tools & cloud,12.7388535031847
+recurrent neural network,Enterprise services,42.5477707006369
+recurrent neural network,Data management,2.4203821656051
+recurrent neural network,Digital security,12.3566878980892
+recurrent neural network,Source code management,19.8726114649682
+recurrent neural network,Database architecture,13.5031847133758
+recurrent neural network,Web development,68.7898089171974
+recurrent neural network,DevOps,50.19108280254781
+reinforcement learning,Applications & networks,45.7324840764331
+reinforcement learning,Database administration,2.0382165605095497
+reinforcement learning,Open source programming,8.15286624203822
+reinforcement learning,User interface,56.5605095541401
+reinforcement learning,Artificial intelligence,94.2675159235669
+reinforcement learning,Data processing,80.8917197452229
+reinforcement learning,Testing & quality,36.4331210191083
+reinforcement learning,Systems programming & robotics,12.484076433121
+reinforcement learning,Microsoft tools & cloud,82.29299363057329
+reinforcement learning,Enterprise services,6.751592356687899
+reinforcement learning,Data management,13.2484076433121
+reinforcement learning,Digital security,32.2292993630573
+reinforcement learning,Source code management,38.85350318471341
+reinforcement learning,Database architecture,19.1082802547771
+reinforcement learning,Web development,5.98726114649682
+reinforcement learning,DevOps,23.312101910828
+relational database,Applications & networks,68.5350318471338
+relational database,Database administration,97.4522292993631
+relational database,Open source programming,52.356687898089206
+relational database,User interface,41.0191082802548
+relational database,Artificial intelligence,8.15286624203822
+relational database,Data processing,38.5987261146497
+relational database,Testing & quality,57.0700636942675
+relational database,Systems programming & robotics,0.382165605095541
+relational database,Microsoft tools & cloud,9.29936305732484
+relational database,Enterprise services,81.65605095541399
+relational database,Data management,97.3248407643312
+relational database,Digital security,70.4458598726115
+relational database,Source code management,43.5668789808917
+relational database,Database architecture,90.4458598726115
+relational database,Web development,30.573248407643295
+relational database,DevOps,55.1592356687898
+science,Applications & networks,75.28662420382169
+science,Database administration,55.541401273885306
+science,Open source programming,42.6751592356688
+science,User interface,69.8089171974522
+science,Artificial intelligence,68.91719745222929
+science,Data processing,57.3248407643312
+science,Testing & quality,48.5350318471338
+science,Systems programming & robotics,80.1273885350319
+science,Microsoft tools & cloud,87.00636942675159
+science,Enterprise services,82.16560509554141
+science,Data management,84.968152866242
+science,Digital security,78.4713375796178
+science,Source code management,46.7515923566879
+science,Database architecture,43.5668789808917
+science,Web development,45.605095541401305
+science,DevOps,61.656050955414
+scipy,Applications & networks,78.2165605095541
+scipy,Database administration,13.6305732484076
+scipy,Open source programming,10.9554140127389
+scipy,User interface,11.3375796178344
+scipy,Artificial intelligence,92.1019108280255
+scipy,Data processing,42.0382165605096
+scipy,Testing & quality,22.6751592356688
+scipy,Systems programming & robotics,12.6114649681529
+scipy,Microsoft tools & cloud,22.2929936305732
+scipy,Enterprise services,15.9235668789809
+scipy,Data management,24.4585987261146
+scipy,Digital security,32.3566878980892
+scipy,Source code management,24.203821656051
+scipy,Database architecture,12.8662420382166
+scipy,Web development,12.7388535031847
+scipy,DevOps,3.69426751592357
+semantics,Applications & networks,82.29299363057329
+semantics,Database administration,14.9044585987261
+semantics,Open source programming,89.4267515923567
+semantics,User interface,85.4777070063694
+semantics,Artificial intelligence,76.4331210191083
+semantics,Data processing,85.3503184713376
+semantics,Testing & quality,20.5095541401274
+semantics,Systems programming & robotics,85.85987261146501
+semantics,Microsoft tools & cloud,25.7324840764331
+semantics,Enterprise services,34.9044585987261
+semantics,Data management,74.9044585987261
+semantics,Digital security,66.87898089171969
+semantics,Source code management,37.7070063694268
+semantics,Database architecture,3.69426751592357
+semantics,Web development,93.6305732484076
+semantics,DevOps,22.5477707006369
+sentiment analysis,Applications & networks,38.343949044586
+sentiment analysis,Database administration,68.0254777070064
+sentiment analysis,Open source programming,68.1528662420382
+sentiment analysis,User interface,91.8471337579618
+sentiment analysis,Artificial intelligence,94.90445859872612
+sentiment analysis,Data processing,75.6687898089172
+sentiment analysis,Testing & quality,16.4331210191083
+sentiment analysis,Systems programming & robotics,44.4585987261147
+sentiment analysis,Microsoft tools & cloud,23.057324840764306
+sentiment analysis,Enterprise services,55.6687898089172
+sentiment analysis,Data management,47.8980891719745
+sentiment analysis,Digital security,31.7197452229299
+sentiment analysis,Source code management,6.114649681528659
+sentiment analysis,Database architecture,81.1464968152866
+sentiment analysis,Web development,44.203821656051
+sentiment analysis,DevOps,55.2866242038217
+software analyst,Applications & networks,75.1592356687898
+software analyst,Database administration,25.7324840764331
+software analyst,Open source programming,8.53503184713376
+software analyst,User interface,51.9745222929936
+software analyst,Artificial intelligence,76.3057324840764
+software analyst,Data processing,24.4585987261146
+software analyst,Testing & quality,80.38216560509551
+software analyst,Systems programming & robotics,15.5414012738853
+software analyst,Microsoft tools & cloud,91.0828025477707
+software analyst,Enterprise services,91.8471337579618
+software analyst,Data management,90.4458598726115
+software analyst,Digital security,60.5095541401274
+software analyst,Source code management,76.3057324840764
+software analyst,Database architecture,6.751592356687899
+software analyst,Web development,53.1210191082803
+software analyst,DevOps,13.1210191082803
+software framework,Applications & networks,7.3885350318471295
+software framework,Database administration,87.8980891719745
+software framework,Open source programming,91.3375796178344
+software framework,User interface,11.8471337579618
+software framework,Artificial intelligence,3.18471337579618
+software framework,Data processing,10.5732484076433
+software framework,Testing & quality,63.312101910828
+software framework,Systems programming & robotics,55.9235668789809
+software framework,Microsoft tools & cloud,6.878980891719751
+software framework,Enterprise services,62.6751592356688
+software framework,Data management,43.5668789808917
+software framework,Digital security,2.54777070063694
+software framework,Source code management,10.9554140127389
+software framework,Database architecture,62.8025477707006
+software framework,Web development,7.3885350318471295
+software framework,DevOps,34.2675159235669
+speech recognition,Applications & networks,57.4522292993631
+speech recognition,Database administration,18.5987261146497
+speech recognition,Open source programming,17.3248407643312
+speech recognition,User interface,20.3821656050955
+speech recognition,Artificial intelligence,96.9426751592357
+speech recognition,Data processing,77.5796178343949
+speech recognition,Testing & quality,36.3057324840764
+speech recognition,Systems programming & robotics,66.2420382165605
+speech recognition,Microsoft tools & cloud,32.101910828025495
+speech recognition,Enterprise services,20.5095541401274
+speech recognition,Data management,32.3566878980892
+speech recognition,Digital security,51.84713375796181
+speech recognition,Source code management,28.1528662420382
+speech recognition,Database architecture,17.0700636942675
+speech recognition,Web development,19.235668789808894
+speech recognition,DevOps,7.3885350318471295
+sql,Applications & networks,78.9808917197452
+sql,Database administration,99.2356687898089
+sql,Open source programming,71.59235668789809
+sql,User interface,12.7388535031847
+sql,Artificial intelligence,13.757961783439502
+sql,Data processing,36.4331210191083
+sql,Testing & quality,18.9808917197452
+sql,Systems programming & robotics,48.4076433121019
+sql,Microsoft tools & cloud,0.8917197452229301
+sql,Enterprise services,61.910828025477706
+sql,Data management,66.2420382165605
+sql,Digital security,14.3949044585987
+sql,Source code management,4.07643312101911
+sql,Database architecture,27.6433121019108
+sql,Web development,4.71337579617834
+sql,DevOps,27.0063694267516
+statistical model,Applications & networks,11.8471337579618
+statistical model,Database administration,11.8471337579618
+statistical model,Open source programming,16.305732484076398
+statistical model,User interface,12.484076433121
+statistical model,Artificial intelligence,96.05095541401268
+statistical model,Data processing,89.2993630573248
+statistical model,Testing & quality,27.261146496815304
+statistical model,Systems programming & robotics,70.9554140127388
+statistical model,Microsoft tools & cloud,29.8089171974522
+statistical model,Enterprise services,17.7070063694268
+statistical model,Data management,19.8726114649682
+statistical model,Digital security,76.0509554140127
+statistical model,Source code management,30.445859872611504
+statistical model,Database architecture,21.5286624203822
+statistical model,Web development,14.5222929936306
+statistical model,DevOps,31.7197452229299
+supervised learning,Applications & networks,30.1910828025478
+supervised learning,Database administration,9.17197452229299
+supervised learning,Open source programming,33.3757961783439
+supervised learning,User interface,25.9872611464968
+supervised learning,Artificial intelligence,97.7070063694268
+supervised learning,Data processing,7.89808917197452
+supervised learning,Testing & quality,23.312101910828
+supervised learning,Systems programming & robotics,49.171974522293
+supervised learning,Microsoft tools & cloud,36.8152866242038
+supervised learning,Enterprise services,61.1464968152866
+supervised learning,Data management,60.1273885350318
+supervised learning,Digital security,29.171974522293
+supervised learning,Source code management,18.0891719745223
+supervised learning,Database architecture,44.5859872611465
+supervised learning,Web development,7.89808917197452
+supervised learning,DevOps,5.85987261146497
+system,Applications & networks,57.5796178343949
+system,Database administration,53.1210191082803
+system,Open source programming,20.8917197452229
+system,User interface,55.031847133758006
+system,Artificial intelligence,84.5859872611465
+system,Data processing,40.1273885350318
+system,Testing & quality,71.9745222929936
+system,Systems programming & robotics,44.968152866242
+system,Microsoft tools & cloud,96.05095541401268
+system,Enterprise services,94.2675159235669
+system,Data management,87.6433121019108
+system,Digital security,85.2229299363057
+system,Source code management,59.3630573248408
+system,Database architecture,28.1528662420382
+system,Web development,51.0828025477707
+system,DevOps,43.5668789808917
+systems analysis,Applications & networks,68.7898089171974
+systems analysis,Database administration,64.4585987261146
+systems analysis,Open source programming,22.6751592356688
+systems analysis,User interface,61.7834394904459
+systems analysis,Artificial intelligence,82.9299363057325
+systems analysis,Data processing,55.541401273885306
+systems analysis,Testing & quality,77.5796178343949
+systems analysis,Systems programming & robotics,37.8343949044586
+systems analysis,Microsoft tools & cloud,96.687898089172
+systems analysis,Enterprise services,90.5732484076433
+systems analysis,Data management,92.3566878980892
+systems analysis,Digital security,30.955414012738903
+systems analysis,Source code management,54.9044585987261
+systems analysis,Database architecture,24.968152866242
+systems analysis,Web development,46.3694267515924
+systems analysis,DevOps,65.9872611464968
+technology,Applications & networks,7.26114649681529
+technology,Database administration,82.4203821656051
+technology,Open source programming,54.52229299363061
+technology,User interface,27.6433121019108
+technology,Artificial intelligence,14.7770700636943
+technology,Data processing,11.2101910828025
+technology,Testing & quality,56.3057324840764
+technology,Systems programming & robotics,42.8025477707006
+technology,Microsoft tools & cloud,3.31210191082803
+technology,Enterprise services,97.9617834394904
+technology,Data management,76.81528662420381
+technology,Digital security,5.60509554140127
+technology,Source code management,31.3375796178344
+technology,Database architecture,0.636942675159236
+technology,Web development,4.07643312101911
+technology,DevOps,23.1847133757962
+tensorflow,Applications & networks,42.9299363057325
+tensorflow,Database administration,19.4904458598726
+tensorflow,Open source programming,1.14649681528662
+tensorflow,User interface,39.2356687898089
+tensorflow,Artificial intelligence,100.0
+tensorflow,Data processing,71.8471337579618
+tensorflow,Testing & quality,16.1783439490446
+tensorflow,Systems programming & robotics,33.5031847133758
+tensorflow,Microsoft tools & cloud,16.687898089172002
+tensorflow,Enterprise services,33.3757961783439
+tensorflow,Data management,45.9872611464968
+tensorflow,Digital security,45.0955414012739
+tensorflow,Source code management,55.2866242038217
+tensorflow,Database architecture,7.515923566878981
+tensorflow,Web development,27.0063694267516
+tensorflow,DevOps,11.4649681528662
+test-driven development,Applications & networks,5.35031847133758
+test-driven development,Database administration,66.3694267515924
+test-driven development,Open source programming,87.2611464968153
+test-driven development,User interface,53.375796178343904
+test-driven development,Artificial intelligence,11.7197452229299
+test-driven development,Data processing,23.8216560509554
+test-driven development,Testing & quality,92.1019108280255
+test-driven development,Systems programming & robotics,36.5605095541401
+test-driven development,Microsoft tools & cloud,48.0254777070064
+test-driven development,Enterprise services,70.57324840764329
+test-driven development,Data management,81.9108280254777
+test-driven development,Digital security,91.3375796178344
+test-driven development,Source code management,90.3184713375796
+test-driven development,Database architecture,87.1337579617834
+test-driven development,Web development,67.0063694267516
+test-driven development,DevOps,82.9299363057325
+text mining,Applications & networks,16.1783439490446
+text mining,Database administration,43.0573248407643
+text mining,Open source programming,6.751592356687899
+text mining,User interface,3.94904458598726
+text mining,Artificial intelligence,96.1783439490446
+text mining,Data processing,66.1146496815287
+text mining,Testing & quality,13.757961783439502
+text mining,Systems programming & robotics,37.9617834394904
+text mining,Microsoft tools & cloud,5.35031847133758
+text mining,Enterprise services,11.0828025477707
+text mining,Data management,35.796178343948995
+text mining,Digital security,23.057324840764306
+text mining,Source code management,1.14649681528662
+text mining,Database architecture,2.92993630573248
+text mining,Web development,3.0573248407643296
+text mining,DevOps,15.6687898089172
+topic model,Applications & networks,82.16560509554141
+topic model,Database administration,9.42675159235669
+topic model,Open source programming,0.127388535031847
+topic model,User interface,9.80891719745223
+topic model,Artificial intelligence,90.1910828025478
+topic model,Data processing,61.656050955414
+topic model,Testing & quality,28.1528662420382
+topic model,Systems programming & robotics,18.343949044586
+topic model,Microsoft tools & cloud,34.777070063694296
+topic model,Enterprise services,0.254777070063694
+topic model,Data management,19.7452229299363
+topic model,Digital security,17.0700636942675
+topic model,Source code management,81.0191082802548
+topic model,Database architecture,48.4076433121019
+topic model,Web development,53.375796178343904
+topic model,DevOps,7.643312101910831
+transfer learning,Applications & networks,47.1337579617834
+transfer learning,Database administration,2.54777070063694
+transfer learning,Open source programming,49.0445859872611
+transfer learning,User interface,73.6305732484076
+transfer learning,Artificial intelligence,95.4140127388535
+transfer learning,Data processing,79.7452229299363
+transfer learning,Testing & quality,8.789808917197451
+transfer learning,Systems programming & robotics,92.7388535031847
+transfer learning,Microsoft tools & cloud,53.375796178343904
+transfer learning,Enterprise services,0.764331210191083
+transfer learning,Data management,2.8025477707006403
+transfer learning,Digital security,6.6242038216560495
+transfer learning,Source code management,3.8216560509554096
+transfer learning,Database architecture,27.0063694267516
+transfer learning,Web development,16.305732484076398
+transfer learning,DevOps,51.84713375796181
+unit testing,Applications & networks,10.0636942675159
+unit testing,Database administration,74.140127388535
+unit testing,Open source programming,84.33121019108279
+unit testing,User interface,34.140127388535
+unit testing,Artificial intelligence,5.35031847133758
+unit testing,Data processing,9.93630573248408
+unit testing,Testing & quality,97.7070063694268
+unit testing,Systems programming & robotics,9.93630573248408
+unit testing,Microsoft tools & cloud,32.3566878980892
+unit testing,Enterprise services,63.566878980891694
+unit testing,Data management,79.49044585987261
+unit testing,Digital security,75.92356687898089
+unit testing,Source code management,82.16560509554141
+unit testing,Database architecture,67.1337579617834
+unit testing,Web development,16.9426751592357
+unit testing,DevOps,43.4394904458599
+unstructured data,Applications & networks,31.5923566878981
+unstructured data,Database administration,12.6114649681529
+unstructured data,Open source programming,2.67515923566879
+unstructured data,User interface,26.751592356687897
+unstructured data,Artificial intelligence,97.1974522292994
+unstructured data,Data processing,73.12101910828021
+unstructured data,Testing & quality,6.114649681528659
+unstructured data,Systems programming & robotics,16.305732484076398
+unstructured data,Microsoft tools & cloud,52.6114649681529
+unstructured data,Enterprise services,35.159235668789805
+unstructured data,Data management,41.4012738853503
+unstructured data,Digital security,39.1082802547771
+unstructured data,Source code management,8.789808917197451
+unstructured data,Database architecture,10.4458598726115
+unstructured data,Web development,14.3949044585987
+unstructured data,DevOps,1.52866242038217
+unsupervised learning,Applications & networks,58.343949044586
+unsupervised learning,Database administration,8.02547770700637
+unsupervised learning,Open source programming,5.0955414012738895
+unsupervised learning,User interface,7.643312101910831
+unsupervised learning,Artificial intelligence,97.0700636942675
+unsupervised learning,Data processing,29.5541401273885
+unsupervised learning,Testing & quality,11.2101910828025
+unsupervised learning,Systems programming & robotics,31.5923566878981
+unsupervised learning,Microsoft tools & cloud,0.127388535031847
+unsupervised learning,Enterprise services,15.031847133758
+unsupervised learning,Data management,2.54777070063694
+unsupervised learning,Digital security,5.85987261146497
+unsupervised learning,Source code management,8.40764331210191
+unsupervised learning,Database architecture,1.52866242038217
+unsupervised learning,Web development,14.6496815286624
+unsupervised learning,DevOps,4.5859872611465
+web application,Applications & networks,1.4012738853503202
+web application,Database administration,71.8471337579618
+web application,Open source programming,78.9808917197452
+web application,User interface,4.84076433121019
+web application,Artificial intelligence,4.96815286624204
+web application,Data processing,13.5031847133758
+web application,Testing & quality,61.40127388535031
+web application,Systems programming & robotics,43.4394904458599
+web application,Microsoft tools & cloud,4.71337579617834
+web application,Enterprise services,39.2356687898089
+web application,Data management,89.68152866242039
+web application,Digital security,7.770700636942671
+web application,Source code management,17.0700636942675
+web application,Database architecture,70.7006369426752
+web application,Web development,12.3566878980892
+web application,DevOps,20.8917197452229
+xgboost,Applications & networks,22.420382165605098
+xgboost,Database administration,13.5031847133758
+xgboost,Open source programming,18.9808917197452
+xgboost,User interface,28.6624203821656
+xgboost,Artificial intelligence,97.8343949044586
+xgboost,Data processing,31.210191082802503
+xgboost,Testing & quality,6.24203821656051
+xgboost,Systems programming & robotics,95.031847133758
+xgboost,Microsoft tools & cloud,16.305732484076398
+xgboost,Enterprise services,21.5286624203822
+xgboost,Data management,1.91082802547771
+xgboost,Digital security,13.6305732484076
+xgboost,Source code management,47.6433121019108
+xgboost,Database architecture,26.8789808917197
+xgboost,Web development,79.8726114649682
+xgboost,DevOps,29.936305732484097
