@@ -62,8 +62,23 @@ footer = html.Footer(
     dbc.Container([
         html.P("AI Impact Dashboard © 2024. All rights reserved.",
                className="footer-text"),
-        html.P("Contact us at: contact@ai-dashboard.com",
-               className="footer-text"),
+        html.Div([
+            "Connect with me on ",
+            html.A(
+                [
+                    html.I(className="fab fa-linkedin me-1"),
+                    "LinkedIn"
+                ],
+                href="https://www.linkedin.com/in/aditya-kartikeyan-46a0b6166/",
+                target="_blank",
+                className="footer-link",
+                style={
+                    'color': '#0077b5',
+                    'textDecoration': 'none',
+                    'fontWeight': 'bold'
+                }
+            )
+        ], className="footer-text"),
     ], fluid=True),
     className="dashboard-footer"
 )
@@ -79,7 +94,7 @@ def create_metric_card(title, value, icon_class):
         ])
     ], className="dashboard-card metric-card")
 
-def create_chart_section(title, dropdown_label, dropdown_id, dropdown_options, dropdown_value, graph_id, multi=False):
+def create_chart_section(title, dropdown_label, dropdown_id, dropdown_options, dropdown_value, graph_id, source ,multi=False):
     return dbc.Card([
         dbc.CardBody([
             html.H4(title, className="section-title text-center"),
@@ -92,7 +107,12 @@ def create_chart_section(title, dropdown_label, dropdown_id, dropdown_options, d
                     multi=multi,
                     className="dash-dropdown"
                 ),
-                dcc.Graph(id=graph_id, className="graph-container")
+                dcc.Graph(id=graph_id, className="graph-container"),
+                 html.Div([
+                    html.I(className="fas fa-info-circle me-2"),
+                    "Source: ",
+                    html.Span(source, style={'fontStyle': 'italic'})
+                ], className="source-citation")
             ])
         ])
     ], className="dashboard-card")
@@ -133,9 +153,11 @@ job_trends_section = create_chart_section(
     "job-country-filter",
     [{'label': country, 'value': country} for country in ai_compute_job_demand['Country'].unique()],
     'Global',
-    'job-trends-line-chart'
+    'job-trends-line-chart',
+    "LinkedIn Economic Graph"
 )
 
+#skills penetration section
 skills_penetration_section = create_chart_section(
     "AI Skills Penetration by Industry",
     "Country:",
@@ -143,6 +165,7 @@ skills_penetration_section = create_chart_section(
     [{'label': country, 'value': country} for country in ai_skills_penetration['Country'].unique()],
     [ai_skills_penetration['Country'].unique()[0]],
     'ai-skills-penetration-bar-chart',
+    "LinkedIn Economic Graph",
     multi=True
 )
 
@@ -172,7 +195,12 @@ job_displacement_section = dbc.Card([
                 ),
             ], width=6),
         ]),
-        dcc.Graph(id='job-displacement-vs-ai-jobs-created', className="graph-container")
+        dcc.Graph(id='job-displacement-vs-ai-jobs-created', className="graph-container"),
+        html.Div([
+            html.I(className="fas fa-info-circle me-2"),
+            "Source: World Economic Graph"
+        ], className="source-citation")
+    
     ])
 ], className="dashboard-card")
 
@@ -193,12 +221,16 @@ salary_insights_section = dbc.Card([
             dcc.Graph(
                 id='role-salary-comparison-bar-chart',
                 className="graph-container"
-            )
+            ),
+             html.Div([
+            html.I(className="fas fa-info-circle me-2"),
+            "Source: Payscale, Glassdoor"
+        ], className="source-citation")
         ])
     ])
 ], className="dashboard-card")
 
-# Top skills section
+
 # Top skills section
 top_skills_section = dbc.Card([
     dbc.CardBody([
@@ -247,7 +279,11 @@ top_skills_section = dbc.Card([
                     linecolor='rgba(0,0,0,0.1)'
                 )
             )
-        )
+        ),
+        html.Div([
+            html.I(className="fas fa-info-circle me-2"),
+            "Source: OECD.AI"
+        ], className="source-citation")
     ])
 ], className="dashboard-card")
 
@@ -291,11 +327,15 @@ career_roadmap_section = dbc.Card([
                 ], className="roadmap-level")
             ]),
             html.Div(id='level-details', className="level-details")
-        ], className="career-pathway-container")
+        ], className="career-pathway-container"),
+        html.Div([
+            html.I(className="fas fa-info-circle me-2"),
+            "Source: Coursera, Khan Academy, DataCamp"
+        ], className="source-citation")
     ])
 ], className="dashboard-card")
 
-# Layout with container and rows
+# app Layout 
 app.layout = dbc.Container([
     header,
     general_overview_section,
@@ -314,7 +354,7 @@ app.layout = dbc.Container([
     footer
 ], fluid=True)
 
-
+# call backs for all charts
 @app.callback(
     Output('job-trends-line-chart', 'figure'),
     [Input('job-country-filter', 'value')]
@@ -327,11 +367,11 @@ def update_job_trends_chart(selected_country):
         filtered_data.groupby('Year')['Total_Job_postings'].sum().reset_index(),
         x='Year',
         y='Total_Job_postings',
-        line_shape='spline',  # Smooth line
-        markers=True  # Show data points
+        line_shape='spline',  
+        markers=True  
     )
 
-    # Update the layout and styling
+   
     figure.update_traces(
         line_color='#4b6cb7',
         marker=dict(size=8, color='#4b6cb7', line=dict(color='white', width=2))
@@ -408,7 +448,7 @@ def update_ai_skills_penetration_chart(selected_countries):
     )
     return figure
 
-# Callback to update the job displacement vs AI jobs created chart based on filters
+
 @app.callback(
     Output('job-displacement-vs-ai-jobs-created', 'figure'),
     [Input('country-filter', 'value'),
@@ -456,7 +496,7 @@ def update_job_displacement_chart(selected_country, selected_industry):
     )
     return figure
 
-# Callback to update the role-based salary comparison chart based on selected industry
+
 @app.callback(
     Output('role-salary-comparison-bar-chart', 'figure'),
     [Input('salary-industry-filter', 'value')]
@@ -501,12 +541,12 @@ def update_role_salary_comparison_chart(selected_industry):
         )
     )
     
-    # Format y-axis labels as currency
+    
     figure.update_yaxes(tickprefix="$", tickformat=",.0f")
     
     return figure
 
-# Callback to update level details based on selected role and level
+
 @app.callback(
     Output('level-details', 'children'),
     [Input('role-dropdown', 'value'),
@@ -526,18 +566,50 @@ def update_level_details(selected_role, beginner_clicks, intermediate_clicks, ad
         level = 'Advanced'
     
     if level:
-        # Filter dataset based on selected role and level
-        filtered_data = ai_career_pathway_dataset[(ai_career_pathway_dataset['Role'] == selected_role) & (ai_career_pathway_dataset['Level'] == level)]
+       
+        filtered_data = ai_career_pathway_dataset[
+            (ai_career_pathway_dataset['Role'] == selected_role) & 
+            (ai_career_pathway_dataset['Level'] == level)
+        ]
         if not filtered_data.empty:
             skills = filtered_data.iloc[0]['Skills']
-            resources = filtered_data.iloc[0]['Resources']
+            resources = filtered_data.iloc[0]['Resources'].split(',') 
+            
+            # Create course links
+            course_links = []
+            for i, resource in enumerate(resources, 1):
+                course_links.append(
+                    html.A(
+                        f"Course {i}",
+                        href=resource.strip(),
+                        target="_blank",
+                        className="course-link",
+                        style={
+                            'display': 'inline-block',
+                            'padding': '8px 16px',
+                            'margin': '5px',
+                            'backgroundColor': '#4b6cb7',
+                            'color': 'white',
+                            'borderRadius': '4px',
+                            'textDecoration': 'none',
+                            'transition': 'background-color 0.3s'
+                        }
+                    )
+                )
+            
             return html.Div([
-                html.H3(f"{level} Level Skills:"),
-                html.P(skills),
-                html.H3(f"Recommended Resources:"),
-                html.A(f"Learn More", href=resources, target="_blank")
+                html.H3(f"{level} Level Skills:", 
+                       style={'color': '#2c3e50', 'marginBottom': '1rem'}),
+                html.P([skill.strip(",") for skill in skills.split(',')],
+                      style={'color': '#6c757d', 'marginBottom': '2rem'}),
+                html.H3("Recommended Courses:", 
+                       style={'color': '#2c3e50', 'marginBottom': '1rem'}),
+                html.Div(course_links, 
+                        style={'marginBottom': '1rem'})
             ])
-    return html.Div("Please click on a level to see the details.")
+            
+    return html.Div("Please click on a level to see the details.",
+                   style={'textAlign': 'center', 'color': '#6c757d'})
 
 server = app.server
 

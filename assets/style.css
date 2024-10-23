@@ -108,10 +108,16 @@ body {
     transform: scale(1.05);
 }
 
+.course-link:hover {
+    background-color: #182848 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .level-details {
+    background-color: #f8f9fa;
     padding: 1.5rem;
-    background-color: #f8fafc;
-    border-radius: var(--card-radius);
+    border-radius: 8px;
     margin-top: 1rem;
 }
 
@@ -128,6 +134,38 @@ body {
     font-size: 0.875rem;
     text-align: center;
     margin-bottom: 0.5rem;
+}
+
+/* Source Citation Styling */
+.source-citation {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+/* Footer Styling */
+.dashboard-footer {
+    padding: 2rem 0;
+    background-color: white;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 3rem;
+}
+
+.footer-text {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-link {
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #005582 !important;
 }
 
 /* Responsive Adjustments */
