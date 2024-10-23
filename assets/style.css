@@ -1,0 +1,146 @@
+/* Dashboard Theme Variables */
+:root {
+    --primary: #4b6cb7;
+    --secondary: #182848;
+    --background: #f8f9fa;
+    --text-primary: #2c3e50;
+    --text-muted: #6c757d;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --card-radius: 12px;
+    --transition: 0.2s ease;
+}
+
+/* Base Styles */
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Card Styles */
+.dashboard-card {
+    border-radius: var(--card-radius);
+    border: none;
+    box-shadow: var(--card-shadow);
+    transition: transform var(--transition);
+    background: white;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Metric Cards */
+.metric-card .card-title {
+    color: var(--text-muted);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card .card-text {
+    color: var(--text-primary);
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* Section Headers */
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+/* Dropdown Styling */
+.dash-dropdown {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.dash-dropdown .Select-control {
+    border-color: #e2e8f0;
+    border-radius: 8px;
+}
+
+.dash-dropdown .Select-placeholder {
+    color: var(--text-muted);
+}
+
+/* Graph Container */
+.graph-container {
+    height: 350px;
+    margin-top: 1rem;
+}
+
+/* Career Pathway */
+.roadmap-level {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    gap: 1rem;
+}
+
+.roadmap-circle {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all var(--transition);
+}
+
+.roadmap-circle:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: scale(1.05);
+}
+
+.level-details {
+    padding: 1.5rem;
+    background-color: #f8fafc;
+    border-radius: var(--card-radius);
+    margin-top: 1rem;
+}
+
+/* Footer */
+.dashboard-footer {
+    padding: 2rem 0;
+    background-color: white;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 3rem;
+}
+
+.footer-text {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .roadmap-level {
+        flex-direction: column;
+    }
+    
+    .metric-card .card-text {
+        font-size: 1.5rem;
+    }
+    
+    .graph-container {
+        height: 300px;
+    }
+}
