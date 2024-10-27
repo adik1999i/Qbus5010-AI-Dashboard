@@ -1,19 +1,50 @@
+"""
+AI Impact Dashboard
+==================
+Author: Aditya Kartikeyan , Pranav Hari
+Version: 1.0
+Last Updated: October 2024
+
+A comprehensive dashboard built with Dash to visualize AI's impact on the job market.
+
+Data Sources:
+- LinkedIn Economic Graph
+- World Economic Graph
+- OECD.AI
+- Payscale
+- Glassdoor
+- Coursera
+- Khan Academy
+- DataCamp
+
+Dependencies:
+- dash==2.14.2
+- dash-bootstrap-components==1.5.0
+- plotly==5.18.0
+- pandas==2.1.4
+"""
+
+
+# =============================================================================
+# Import Required Libraries
+# =============================================================================
 import dash
 from dash import dcc, html, Input, Output, ctx
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
-# datasets
+# =============================================================================
+# Data Loading and Initial Processing
+# =============================================================================
 ai_career_pathway_dataset = pd.read_csv('data/AI_Career_Pathway_Dataset (1).csv')
 ai_compute_job_demand = pd.read_csv('data/AI_Compute_Job_Demand.csv')
 ai_job_statistics_displacement = pd.read_csv('data/AI_Job_Statistics_Displacement_Undisplacement.csv')
 ai_salaries = pd.read_csv('data/AI_Salaries_2020_2024.csv')
 ai_skills_penetration = pd.read_csv('data/AI_Skills_Penetration_by_Industry.csv')
-ai_talent_concentration = pd.read_csv('data/AI_Talent_Concentration_by_Country_Industry_Corrected.csv')
 global_top_skills = pd.read_csv('data/Global_Top_Skills (1).csv')
-skill_distribution_by_job_cluster = pd.read_csv('data/Skill_Distribution_by_Job_Cluster.csv')
 
+# Filter global data for overview metrics
 global_jobs_data = ai_compute_job_demand[ai_compute_job_demand['Country'] == 'Global']
 
 # Total jobs created by AI (aggregated from compute job demand dataset for Global)
@@ -25,7 +56,7 @@ average_salary = ai_salaries['Salary'].mean()
 # Most in-demand AI skill (from the global top skills dataset)
 most_in_demand_skill = global_top_skills.loc[global_top_skills['Ranking'].idxmin(), 'Skill']
 
-
+# Helper Functions
 def calculate_growth_percentage(data):
     global_jobs_data = data[data['Country'] == 'Global']
     job_postings_per_year = global_jobs_data.groupby('Year')['Total_Job_postings'].sum().reset_index()
@@ -39,6 +70,9 @@ def calculate_growth_percentage(data):
 
 growth_percentage = calculate_growth_percentage(ai_compute_job_demand)
 
+# =============================================================================
+# Initialize Dash App
+# =============================================================================
 app = dash.Dash(
     __name__,
     external_stylesheets=[
@@ -47,7 +81,7 @@ app = dash.Dash(
     ]
 )
 
-#header section
+# Header section
 header = dbc.Navbar(
     dbc.Container([
         dbc.NavbarBrand([
@@ -83,6 +117,17 @@ footer = html.Footer(
     className="dashboard-footer"
 )
 
+"""
+    Created a Bootstrap card containing a metric with an icon.
+    
+    Args:
+        title (str): Title of the metric
+        value (str): Value to display
+        icon_class (str): Font Awesome icon class
+        
+    Returns:
+        dbc.Card: A formatted Bootstrap card component
+"""
 def create_metric_card(title, value, icon_class):
     return dbc.Card([
         dbc.CardBody([
@@ -94,6 +139,22 @@ def create_metric_card(title, value, icon_class):
         ])
     ], className="dashboard-card metric-card")
 
+"""
+    Create a standardized chart section with dropdown filters.
+    
+    Args:
+        title (str): Section title
+        dropdown_label (str): Label for the dropdown
+        dropdown_id (str): ID for the dropdown component
+        dropdown_options (list): List of options for the dropdown
+        dropdown_value (str/list): Default value(s) for the dropdown
+        graph_id (str): ID for the graph component
+        source (str): Data source citation
+        multi (bool): Whether multiple selection is allowed
+        
+    Returns:
+        dbc.Card: A formatted card containing the chart section
+    """
 def create_chart_section(title, dropdown_label, dropdown_id, dropdown_options, dropdown_value, graph_id, source ,multi=False):
     return dbc.Card([
         dbc.CardBody([
@@ -110,7 +171,7 @@ def create_chart_section(title, dropdown_label, dropdown_id, dropdown_options, d
                 dcc.Graph(id=graph_id, className="graph-container"),
                  html.Div([
                     html.I(className="fas fa-info-circle me-2"),
-                    "Source: ",
+                    "Data From: ",
                     html.Span(source, style={'fontStyle': 'italic'})
                 ], className="source-citation")
             ])
@@ -157,7 +218,7 @@ job_trends_section = create_chart_section(
     "LinkedIn Economic Graph"
 )
 
-#skills penetration section
+# Skills penetration section
 skills_penetration_section = create_chart_section(
     "AI Skills Penetration by Industry",
     "Country:",
@@ -198,7 +259,7 @@ job_displacement_section = dbc.Card([
         dcc.Graph(id='job-displacement-vs-ai-jobs-created', className="graph-container"),
         html.Div([
             html.I(className="fas fa-info-circle me-2"),
-            "Source: World Economic Graph"
+            "Data From: World Economic Graph"
         ], className="source-citation")
     
     ])
@@ -224,7 +285,7 @@ salary_insights_section = dbc.Card([
             ),
              html.Div([
             html.I(className="fas fa-info-circle me-2"),
-            "Source: Payscale, Glassdoor"
+            "Data From: Payscale, Glassdoor"
         ], className="source-citation")
         ])
     ])
@@ -243,9 +304,9 @@ top_skills_section = dbc.Card([
                     SkillWithRank=global_top_skills.apply(
                         lambda x: f"#{x['Ranking']} {x['Skill']}", axis=1
                     )
-                ).sort_values('Ranking'),
-                x='SkillWithRank',
-                y='InverseRank',
+                ).sort_values('Ranking',ascending=False),
+                x='InverseRank',
+                y='SkillWithRank',
                 labels={
                     'SkillWithRank': 'AI Skills',
                     'InverseRank': 'Importance Score'
@@ -266,23 +327,25 @@ top_skills_section = dbc.Card([
                 margin={'t': 80, 'r': 30, 'l': 30, 'b': 150},
                 showlegend=False,
                 xaxis=dict(
-                    tickangle=45,
                     showgrid=True,
                     gridwidth=1,
                     gridcolor='rgba(0,0,0,0.1)',
                     linecolor='rgba(0,0,0,0.1)'
                 ),
                 yaxis=dict(
+                    tickmode='linear',
                     showgrid=True,
                     gridwidth=1,
                     gridcolor='rgba(0,0,0,0.1)',
-                    linecolor='rgba(0,0,0,0.1)'
+                    linecolor='rgba(0,0,0,0.1)',
+                    automargin=True,  # Automatically adjust margin for labels
+                    tickfont=dict(size=9)  # Adjust tick font size
                 )
             )
         ),
         html.Div([
             html.I(className="fas fa-info-circle me-2"),
-            "Source: OECD.AI"
+            "Data From: OECD.AI"
         ], className="source-citation")
     ])
 ], className="dashboard-card")
@@ -330,7 +393,7 @@ career_roadmap_section = dbc.Card([
         ], className="career-pathway-container"),
         html.Div([
             html.I(className="fas fa-info-circle me-2"),
-            "Source: Coursera, Khan Academy, DataCamp"
+            "Data From: Coursera, Khan Academy, DataCamp"
         ], className="source-citation")
     ])
 ], className="dashboard-card")
